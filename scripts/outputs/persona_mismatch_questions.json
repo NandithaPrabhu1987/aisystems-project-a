@@ -1,0 +1,56 @@
+[
+  {
+    "query": "Can I use my discount code from the last clearance sale on the new seasonal sale?",
+    "expected_answer": "Promotional discounts cannot be combined with coupon codes or other offers unless explicitly stated.",
+    "difficulty": "medium",
+    "category": "promotions",
+    "persona": "mismatch",
+    "expected_source": "07_promotional_events.md",
+    "id": "mis001"
+  },
+  {
+    "query": "Do you have any information on the new laptops released during the last Independence Day Sale?",
+    "expected_answer": "Information not available in this document",
+    "difficulty": "medium",
+    "category": "promotions",
+    "persona": "mismatch",
+    "expected_source": "07_promotional_events.md",
+    "id": "mis002"
+  },
+  {
+    "query": "What are the shipping methods available for items bought during flash sales?",
+    "expected_answer": "Information not available in this document",
+    "difficulty": "medium",
+    "category": "promotions",
+    "persona": "mismatch",
+    "expected_source": "07_promotional_events.md",
+    "id": "mis003"
+  },
+  {
+    "query": "Can you tell me how to get a refund for the laptop I bought last month?",
+    "expected_answer": "Information not available in this document",
+    "difficulty": "medium",
+    "category": "membership",
+    "persona": "mismatch",
+    "expected_source": "02_premium_membership.md",
+    "id": "mis004"
+  },
+  {
+    "query": "What are the features of the new smartphone that was just released? I heard there's a great camera.",
+    "expected_answer": "Information not available in this document",
+    "difficulty": "medium",
+    "category": "membership",
+    "persona": "mismatch",
+    "expected_source": "02_premium_membership.md",
+    "id": "mis005"
+  },
+  {
+    "query": "How do I upgrade my Acmera Premium membership to a higher tier for better benefits?",
+    "expected_answer": "Information not available in this document",
+    "difficulty": "medium",
+    "category": "membership",
+    "persona": "mismatch",
+    "expected_source": "02_premium_membership.md",
+    "id": "mis006"
+  }
+]

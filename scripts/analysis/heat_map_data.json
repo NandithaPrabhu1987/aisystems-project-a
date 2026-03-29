@@ -1,0 +1,320 @@
+{
+  "averages": {
+    "returns": {
+      "easy": 3.5,
+      "medium": 4.5
+    },
+    "shipping": {
+      "easy": 4.0,
+      "medium": 3.5
+    },
+    "warranty": {
+      "easy": 5.0,
+      "medium": 4.0
+    },
+    "membership": {
+      "easy": 4.0,
+      "medium": 4.5
+    },
+    "payments": {
+      "easy": 4.333333333333333,
+      "medium": 4.5
+    },
+    "promotions": {
+      "medium": 4.0,
+      "easy": 5.0,
+      "hard": 5.0
+    },
+    "products": {
+      "easy": 5.0,
+      "medium": 3.0
+    },
+    "account": {
+      "medium": 5.0,
+      "easy": 4.0
+    },
+    "wallet": {
+      "easy": 5.0,
+      "medium": 4.0
+    },
+    "referrals": {
+      "medium": 5.0,
+      "easy": 4.333333333333333
+    },
+    "support": {
+      "easy": 5.0,
+      "medium": 4.2
+    },
+    "troubleshooting": {
+      "medium": 4.75,
+      "hard": 4.0
+    },
+    "smart_home": {
+      "medium": 4.75
+    },
+    "sustainability": {
+      "easy": 5.0,
+      "medium": 4.5
+    },
+    "business": {
+      "medium": 4.0,
+      "hard": 5.0,
+      "easy": 4.0
+    },
+    "corporate": {
+      "medium": 5.0
+    },
+    "pricing": {
+      "medium": 5.0
+    }
+  },
+  "priority_list": [
+    {
+      "category": "products",
+      "difficulty": "medium",
+      "score": 3.0,
+      "percentage": 60.0
+    },
+    {
+      "category": "shipping",
+      "difficulty": "medium",
+      "score": 3.5,
+      "percentage": 70.0
+    },
+    {
+      "category": "returns",
+      "difficulty": "easy",
+      "score": 3.5,
+      "percentage": 70.0
+    }
+  ],
+  "heat_map_table": [
+    {
+      "category": "account",
+      "easy": {
+        "score": 4.0,
+        "percentage": 80.0
+      },
+      "medium": {
+        "score": 5.0,
+        "percentage": 100.0
+      },
+      "hard": null,
+      "average": 4.5
+    },
+    {
+      "category": "business",
+      "easy": {
+        "score": 4.0,
+        "percentage": 80.0
+      },
+      "medium": {
+        "score": 4.0,
+        "percentage": 80.0
+      },
+      "hard": {
+        "score": 5.0,
+        "percentage": 100.0
+      },
+      "average": 4.333333333333333
+    },
+    {
+      "category": "corporate",
+      "easy": null,
+      "medium": {
+        "score": 5.0,
+        "percentage": 100.0
+      },
+      "hard": null,
+      "average": 5.0
+    },
+    {
+      "category": "membership",
+      "easy": {
+        "score": 4.0,
+        "percentage": 80.0
+      },
+      "medium": {
+        "score": 4.5,
+        "percentage": 90.0
+      },
+      "hard": null,
+      "average": 4.25
+    },
+    {
+      "category": "payments",
+      "easy": {
+        "score": 4.333333333333333,
+        "percentage": 86.66666666666666
+      },
+      "medium": {
+        "score": 4.5,
+        "percentage": 90.0
+      },
+      "hard": null,
+      "average": 4.416666666666666
+    },
+    {
+      "category": "pricing",
+      "easy": null,
+      "medium": {
+        "score": 5.0,
+        "percentage": 100.0
+      },
+      "hard": null,
+      "average": 5.0
+    },
+    {
+      "category": "products",
+      "easy": {
+        "score": 5.0,
+        "percentage": 100.0
+      },
+      "medium": {
+        "score": 3.0,
+        "percentage": 60.0
+      },
+      "hard": null,
+      "average": 4.0
+    },
+    {
+      "category": "promotions",
+      "easy": {
+        "score": 5.0,
+        "percentage": 100.0
+      },
+      "medium": {
+        "score": 4.0,
+        "percentage": 80.0
+      },
+      "hard": {
+        "score": 5.0,
+        "percentage": 100.0
+      },
+      "average": 4.666666666666667
+    },
+    {
+      "category": "referrals",
+      "easy": {
+        "score": 4.333333333333333,
+        "percentage": 86.66666666666666
+      },
+      "medium": {
+        "score": 5.0,
+        "percentage": 100.0
+      },
+      "hard": null,
+      "average": 4.666666666666666
+    },
+    {
+      "category": "returns",
+      "easy": {
+        "score": 3.5,
+        "percentage": 70.0
+      },
+      "medium": {
+        "score": 4.5,
+        "percentage": 90.0
+      },
+      "hard": null,
+      "average": 4.0
+    },
+    {
+      "category": "shipping",
+      "easy": {
+        "score": 4.0,
+        "percentage": 80.0
+      },
+      "medium": {
+        "score": 3.5,
+        "percentage": 70.0
+      },
+      "hard": null,
+      "average": 3.75
+    },
+    {
+      "category": "smart_home",
+      "easy": null,
+      "medium": {
+        "score": 4.75,
+        "percentage": 95.0
+      },
+      "hard": null,
+      "average": 4.75
+    },
+    {
+      "category": "support",
+      "easy": {
+        "score": 5.0,
+        "percentage": 100.0
+      },
+      "medium": {
+        "score": 4.2,
+        "percentage": 84.00000000000001
+      },
+      "hard": null,
+      "average": 4.6
+    },
+    {
+      "category": "sustainability",
+      "easy": {
+        "score": 5.0,
+        "percentage": 100.0
+      },
+      "medium": {
+        "score": 4.5,
+        "percentage": 90.0
+      },
+      "hard": null,
+      "average": 4.75
+    },
+    {
+      "category": "troubleshooting",
+      "easy": null,
+      "medium": {
+        "score": 4.75,
+        "percentage": 95.0
+      },
+      "hard": {
+        "score": 4.0,
+        "percentage": 80.0
+      },
+      "average": 4.375
+    },
+    {
+      "category": "wallet",
+      "easy": {
+        "score": 5.0,
+        "percentage": 100.0
+      },
+      "medium": {
+        "score": 4.0,
+        "percentage": 80.0
+      },
+      "hard": null,
+      "average": 4.5
+    },
+    {
+      "category": "warranty",
+      "easy": {
+        "score": 5.0,
+        "percentage": 100.0
+      },
+      "medium": {
+        "score": 4.0,
+        "percentage": 80.0
+      },
+      "hard": null,
+      "average": 4.5
+    }
+  ],
+  "metadata": {
+    "total_combinations": 33,
+    "categories": 17,
+    "difficulties": [
+      "easy",
+      "hard",
+      "medium"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "query": "What types of promotional events does Acmera offer throughout the year?",
+    "expected_answer": "Acmera runs several types of promotional events including Seasonal Sales, Flash Sales, Clearance Events, and Premium-Exclusive Sales.",
+    "difficulty": "medium",
+    "category": "promotions",
+    "persona": "standard",
+    "expected_source": "07_promotional_events.md",
+    "id": "sta001"
+  },
+  {
+    "query": "What is the return policy for items purchased during promotional events?",
+    "expected_answer": "Items purchased during promotional events have a return window of 15 calendar days from delivery, with a 10% restocking fee applicable. Some clearance items may be marked as 'Final Sale' and are not eligible for return.",
+    "difficulty": "medium",
+    "category": "promotions",
+    "persona": "standard",
+    "expected_source": "07_promotional_events.md",
+    "id": "sta002"
+  },
+  {
+    "query": "Can I combine promotional discounts with coupon codes?",
+    "expected_answer": "Promotional discounts cannot be combined with coupon codes or other offers unless explicitly stated.",
+    "difficulty": "medium",
+    "category": "promotions",
+    "persona": "standard",
+    "expected_source": "07_promotional_events.md",
+    "id": "sta003"
+  },
+  {
+    "query": "What benefits do Premium Gold members receive compared to Premium Silver members?",
+    "expected_answer": "Premium Gold members receive free express shipping on all orders regardless of value, a quarterly exclusive discount code worth 15% off any single purchase, and have access to a direct phone line staffed 24/7 with senior support agents, along with other benefits.",
+    "difficulty": "medium",
+    "category": "membership",
+    "persona": "standard",
+    "expected_source": "02_premium_membership.md",
+    "id": "sta004"
+  },
+  {
+    "query": "How long do Premium Silver members have to return purchases?",
+    "expected_answer": "Premium Silver members receive a 45-day return window on all purchases, extended from the standard 30-day window.",
+    "difficulty": "medium",
+    "category": "membership",
+    "persona": "standard",
+    "expected_source": "02_premium_membership.md",
+    "id": "sta005"
+  },
+  {
+    "query": "Is there a grace period if a Premium member falls below the spending threshold?",
+    "expected_answer": "Yes, members who fall below the spending threshold may be downgraded but will retain their current tier benefits for a 90-day grace period.",
+    "difficulty": "medium",
+    "category": "membership",
+    "persona": "standard",
+    "expected_source": "02_premium_membership.md",
+    "id": "sta006"
+  }
+]

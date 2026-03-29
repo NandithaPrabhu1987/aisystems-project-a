@@ -1,0 +1,144 @@
+{
+  "total_generated": 8,
+  "kept": 2,
+  "rewrite": 2,
+  "dropped": 4,
+  "critique_results": [
+    {
+      "question": {
+        "id": "demo001",
+        "query": "Can I return my laptop if I opened the box?",
+        "expected_answer": "Yes, you can return opened electronics within 30 days of delivery.",
+        "difficulty": "easy",
+        "category": "returns",
+        "expected_source": "01_return_policy.md",
+        "quality_intent": "keep"
+      },
+      "critique": {
+        "realism_score": 4,
+        "difficulty_score": 3,
+        "decision": "keep",
+        "reason": "The question is realistic and conversational, and while it requires specific information, it is not overly complex for a RAG system to answer correctly."
+      }
+    },
+    {
+      "question": {
+        "id": "demo002",
+        "query": "What's the return window for Premium members?",
+        "expected_answer": "Premium members can return items within 60 days instead of the standard 30 days.",
+        "difficulty": "medium",
+        "category": "returns",
+        "expected_source": "01_return_policy.md",
+        "quality_intent": "keep"
+      },
+      "critique": {
+        "realism_score": 4,
+        "difficulty_score": 3,
+        "decision": "drop",
+        "reason": "The question is based on incorrect information as the document does not mention any special return policy for Premium members."
+      }
+    },
+    {
+      "question": {
+        "id": "demo003",
+        "query": "Please provide information regarding the return policy procedures.",
+        "expected_answer": "Returns must be initiated within 30 days through our portal.",
+        "difficulty": "medium",
+        "category": "returns",
+        "expected_source": "01_return_policy.md",
+        "quality_intent": "rewrite"
+      },
+      "critique": {
+        "realism_score": 4,
+        "difficulty_score": 3,
+        "decision": "keep",
+        "reason": "The question is natural and relevant, and while it requires specific information, it is not overly complex for a RAG system to answer."
+      }
+    },
+    {
+      "question": {
+        "id": "demo004",
+        "query": "What is the detailed systematic process for merchandise restitution?",
+        "expected_answer": "To return items, contact support or use returns.acmera.com within 30 days.",
+        "difficulty": "medium",
+        "category": "returns",
+        "expected_source": "01_return_policy.md",
+        "quality_intent": "rewrite"
+      },
+      "critique": {
+        "realism_score": 2,
+        "difficulty_score": 3,
+        "decision": "rewrite",
+        "reason": "The question is overly formal and could be phrased more naturally, while the answer requires specific information from the document."
+      }
+    },
+    {
+      "question": {
+        "id": "demo005",
+        "query": "What is the capital of France?",
+        "expected_answer": "Paris is the capital of France.",
+        "difficulty": "easy",
+        "category": "returns",
+        "expected_source": "01_return_policy.md",
+        "quality_intent": "drop"
+      },
+      "critique": {
+        "realism_score": 1,
+        "difficulty_score": 1,
+        "decision": "drop",
+        "reason": "The question is completely unrelated to the return policy document and does not reflect a realistic customer inquiry."
+      }
+    },
+    {
+      "question": {
+        "id": "demo006",
+        "query": "Hereby request information about the thing.",
+        "expected_answer": "The thing is described in the document somewhere.",
+        "difficulty": "hard",
+        "category": "returns",
+        "expected_source": "01_return_policy.md",
+        "quality_intent": "drop"
+      },
+      "critique": {
+        "realism_score": 1,
+        "difficulty_score": 1,
+        "decision": "drop",
+        "reason": "The question is nonsensical and does not specify any relevant topic related to the return policy."
+      }
+    },
+    {
+      "question": {
+        "id": "demo007",
+        "query": "Can I return items to your competitor's store?",
+        "expected_answer": "Yes, you can return Acmera items to BestBuy stores.",
+        "difficulty": "medium",
+        "category": "returns",
+        "expected_source": "01_return_policy.md",
+        "quality_intent": "drop"
+      },
+      "critique": {
+        "realism_score": 2,
+        "difficulty_score": 5,
+        "decision": "drop",
+        "reason": "The question is unrealistic as it pertains to returning items to a competitor's store, and the expected answer is factually incorrect."
+      }
+    },
+    {
+      "question": {
+        "id": "demo008",
+        "query": "Please kindly inform me as to the procedural mechanisms by which one might endeavor to effectuate a product restitution transaction.",
+        "expected_answer": "Returns are processed according to policy guidelines.",
+        "difficulty": "hard",
+        "category": "returns",
+        "expected_source": "01_return_policy.md",
+        "quality_intent": "drop"
+      },
+      "critique": {
+        "realism_score": 2,
+        "difficulty_score": 3,
+        "decision": "rewrite",
+        "reason": "The question is overly formal and not in typical customer language, but it does require specific information from the document."
+      }
+    }
+  ]
+}

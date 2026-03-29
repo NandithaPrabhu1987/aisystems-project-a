@@ -1,0 +1,428 @@
+[
+  {
+    "id": "mis001",
+    "query": "Can I use my discount code from the last clearance sale on the new seasonal sale?",
+    "expected_answer": "Promotional discounts cannot be combined with coupon codes or other offers unless explicitly stated.",
+    "generated_answer": {
+      "query": "Can I use my discount code from the last clearance sale on the new seasonal sale?",
+      "answer": "No, promotional discounts cannot be combined with coupon codes or other offers unless explicitly stated. Therefore, you cannot use your discount code from the last clearance sale on the new seasonal sale.",
+      "retrieved_chunks": [
+        {
+          "id": 38,
+          "doc_name": "07_promotional_events.md",
+          "chunk_index": 1,
+          "content": "counts (40-70% off). Flash sales are announced 24 hours in advance via app notifications and email.\n\n**Clearance Events**: Quarterly clearance of end-of-line and overstocked products. Discounts range from 30-80%. Clearance items have limited stock and are sold on a first-come-first-served basis.\n\n**Premium-Exclusive Sales**: Available only to Premium members. These events feature curated selections with exclusive pricing not available during general sales.\n\n## Pricing During Promotions\n\nAll prom",
+          "metadata": {
+            "doc_name": "07_promotional_events.md",
+            "chunk_index": 1
+          },
+          "similarity": 0.4822
+        },
+        {
+          "id": 39,
+          "doc_name": "07_promotional_events.md",
+          "chunk_index": 2,
+          "content": "otional pricing is clearly marked with the original price and discounted price displayed. Promotional discounts cannot be combined with coupon codes or other offers unless explicitly stated.\n\nPrice matching is not available during or after promotional events. If an item goes on sale within 7 days of your purchase, standard customers can request a one-time price adjustment. Premium members can request price adjustments within 14 days.\n\n## Return Policy for Promotional Purchases\n\nItems purchased d",
+          "metadata": {
+            "doc_name": "07_promotional_events.md",
+            "chunk_index": 2
+          },
+          "similarity": 0.4291
+        },
+        {
+          "id": 40,
+          "doc_name": "07_promotional_events.md",
+          "chunk_index": 3,
+          "content": "uring promotional events are subject to modified return terms:\n\n- **Return window**: Reduced to 15 calendar days from delivery (standard is 30 days).\n- **Restocking fee**: A 10% restocking fee applies to all returns of promotional items.\n- **Final sale items**: Some clearance items may be marked as \"Final Sale\" and are not eligible for return or exchange. These are clearly labeled at the time of purchase.\n\n**Premium Member Exception**: Premium members (both Silver and Gold) are exempt from the r",
+          "metadata": {
+            "doc_name": "07_promotional_events.md",
+            "chunk_index": 3
+          },
+          "similarity": 0.4151
+        },
+        {
+          "id": 51,
+          "doc_name": "08_support_tickets.md",
+          "chunk_index": 8,
+          "content": "Suggested she check the upcoming Year-End Clearance sale for deals that could push her over the threshold.",
+          "metadata": {
+            "doc_name": "08_support_tickets.md",
+            "chunk_index": 8
+          },
+          "similarity": 0.4115
+        },
+        {
+          "id": 41,
+          "doc_name": "07_promotional_events.md",
+          "chunk_index": 4,
+          "content": "educed return window and restocking fee. Their standard extended return windows apply to all promotional purchases. However, even Premium members cannot return items marked as \"Final Sale.\"\n\n## Inventory and Stock\n\nPromotional items are available while supplies last. Acmera reserves the right to limit quantities per customer. Orders exceeding quantity limits may be partially or fully cancelled with a full refund.\n\nBack-orders are not accepted during promotional events. If an item goes out of sto",
+          "metadata": {
+            "doc_name": "07_promotional_events.md",
+            "chunk_index": 4
+          },
+          "similarity": 0.4035
+        }
+      ],
+      "context": "[Source: 07_promotional_events.md, Chunk 1]\ncounts (40-70% off). Flash sales are announced 24 hours in advance via app notifications and email.\n\n**Clearance Events**: Quarterly clearance of end-of-line and overstocked products. Discounts range from 30-80%. Clearance items have limited stock and are sold on a first-come-first-served basis.\n\n**Premium-Exclusive Sales**: Available only to Premium members. These events feature curated selections with exclusive pricing not available during general sales.\n\n## Pricing During Promotions\n\nAll prom\n\n---\n\n[Source: 07_promotional_events.md, Chunk 2]\notional pricing is clearly marked with the original price and discounted price displayed. Promotional discounts cannot be combined with coupon codes or other offers unless explicitly stated.\n\nPrice matching is not available during or after promotional events. If an item goes on sale within 7 days of your purchase, standard customers can request a one-time price adjustment. Premium members can request price adjustments within 14 days.\n\n## Return Policy for Promotional Purchases\n\nItems purchased d\n\n---\n\n[Source: 07_promotional_events.md, Chunk 3]\nuring promotional events are subject to modified return terms:\n\n- **Return window**: Reduced to 15 calendar days from delivery (standard is 30 days).\n- **Restocking fee**: A 10% restocking fee applies to all returns of promotional items.\n- **Final sale items**: Some clearance items may be marked as \"Final Sale\" and are not eligible for return or exchange. These are clearly labeled at the time of purchase.\n\n**Premium Member Exception**: Premium members (both Silver and Gold) are exempt from the r\n\n---\n\n[Source: 08_support_tickets.md, Chunk 8]\nSuggested she check the upcoming Year-End Clearance sale for deals that could push her over the threshold.\n\n---\n\n[Source: 07_promotional_events.md, Chunk 4]\neduced return window and restocking fee. Their standard extended return windows apply to all promotional purchases. However, even Premium members cannot return items marked as \"Final Sale.\"\n\n## Inventory and Stock\n\nPromotional items are available while supplies last. Acmera reserves the right to limit quantities per customer. Orders exceeding quantity limits may be partially or fully cancelled with a full refund.\n\nBack-orders are not accepted during promotional events. If an item goes out of sto",
+      "trace_id": "c6a5d31a-983c-4208-bcdb-07e4b4985df4",
+      "elapsed_seconds": 1.47
+    },
+    "persona": "mismatch",
+    "category": "promotions"
+  },
+  {
+    "id": "mis002",
+    "query": "Do you have any information on the new laptops released during the last Independence Day Sale?",
+    "expected_answer": "Information not available in this document",
+    "generated_answer": {
+      "query": "Do you have any information on the new laptops released during the last Independence Day Sale?",
+      "answer": "The provided context does not contain specific information about new laptops released during the last Independence Day Sale. Therefore, I cannot provide details on that.",
+      "retrieved_chunks": [
+        {
+          "id": 52,
+          "doc_name": "09_electronics_catalog.md",
+          "chunk_index": 0,
+          "content": "# Acmera Electronics Catalog \u2014 Current Lineup\n\n## Laptops\n\n**Acmera ProBook X15**\n- Price: \u20b978,999\n- Display: 15.6\" IPS, 1920x1080\n- Processor: Intel Core i7-13700H\n- RAM: 16GB DDR5\n- Storage: 512GB NVMe SSD\n- Battery: Up to 10 hours\n- Warranty: 1 year standard, extendable to 4 years with Shield Plus\n- Category: Electronics \u2014 eligible for standard return policy\n\n**Acmera ProBook Air 14**\n- Price: \u20b954,999\n- Display: 14\" IPS, 2560x1600\n- Processor: Intel Core i5-13500H\n- RAM: 8GB DDR5\n- Storage: 2",
+          "metadata": {
+            "doc_name": "09_electronics_catalog.md",
+            "chunk_index": 0
+          },
+          "similarity": 0.4583
+        },
+        {
+          "id": 53,
+          "doc_name": "09_electronics_catalog.md",
+          "chunk_index": 1,
+          "content": "56GB NVMe SSD\n- Battery: Up to 12 hours\n- Warranty: 1 year standard\n- Category: Electronics\n\n## Smartphones\n\n**Acmera Pixel S24**\n- Price: \u20b934,999\n- Display: 6.4\" AMOLED, 120Hz\n- Processor: Snapdragon 8 Gen 3\n- RAM: 8GB\n- Storage: 128GB\n- Camera: 50MP main + 12MP ultrawide\n- Battery: 4500mAh\n- Warranty: 1 year standard\n\n**Acmera Pixel Lite**\n- Price: \u20b914,999\n- Display: 6.1\" LCD, 90Hz\n- Processor: Snapdragon 695\n- RAM: 4GB\n- Storage: 64GB (expandable)\n- Camera: 48MP main\n- Battery: 5000mAh\n- Warr",
+          "metadata": {
+            "doc_name": "09_electronics_catalog.md",
+            "chunk_index": 1
+          },
+          "similarity": 0.3856
+        },
+        {
+          "id": 37,
+          "doc_name": "07_promotional_events.md",
+          "chunk_index": 0,
+          "content": "# Acmera Promotional Events Policy\n\n## Types of Promotional Events\n\nAcmera runs several types of promotional events throughout the year:\n\n**Seasonal Sales**: Major sale events tied to festivals and holidays \u2014 Diwali Dhamaka (October/November), Republic Day Sale (January), Independence Day Sale (August), and Year-End Clearance (December). These typically run for 5-7 days.\n\n**Flash Sales**: Short-duration sales lasting 6-24 hours, typically featuring a limited number of products at significant dis",
+          "metadata": {
+            "doc_name": "07_promotional_events.md",
+            "chunk_index": 0
+          },
+          "similarity": 0.3773
+        },
+        {
+          "id": 38,
+          "doc_name": "07_promotional_events.md",
+          "chunk_index": 1,
+          "content": "counts (40-70% off). Flash sales are announced 24 hours in advance via app notifications and email.\n\n**Clearance Events**: Quarterly clearance of end-of-line and overstocked products. Discounts range from 30-80%. Clearance items have limited stock and are sold on a first-come-first-served basis.\n\n**Premium-Exclusive Sales**: Available only to Premium members. These events feature curated selections with exclusive pricing not available during general sales.\n\n## Pricing During Promotions\n\nAll prom",
+          "metadata": {
+            "doc_name": "07_promotional_events.md",
+            "chunk_index": 1
+          },
+          "similarity": 0.351
+        },
+        {
+          "id": 63,
+          "doc_name": "11_internal_pricing.md",
+          "chunk_index": 2,
+          "content": "threatens to cancel or downgrade, agents are authorized to offer:\n- One-time 20% discount on their next order\n- Complimentary 3-month Shield warranty extension on a recent purchase\n- \u20b92,000 Acmera Wallet credit\n\nThese retention offers should not be proactively mentioned. They are reactive tools for at-risk Premium members only.\n\n## Cost Price Reference (Q4 2025)\n\n- Acmera ProBook X15: Cost \u20b962,000 / Retail \u20b978,999 (margin 21.5%)\n- Acmera Pixel S24: Cost \u20b924,500 / Retail \u20b934,999 (margin 30%)\n- S",
+          "metadata": {
+            "doc_name": "11_internal_pricing.md",
+            "chunk_index": 2
+          },
+          "similarity": 0.3247
+        }
+      ],
+      "context": "[Source: 09_electronics_catalog.md, Chunk 0]\n# Acmera Electronics Catalog \u2014 Current Lineup\n\n## Laptops\n\n**Acmera ProBook X15**\n- Price: \u20b978,999\n- Display: 15.6\" IPS, 1920x1080\n- Processor: Intel Core i7-13700H\n- RAM: 16GB DDR5\n- Storage: 512GB NVMe SSD\n- Battery: Up to 10 hours\n- Warranty: 1 year standard, extendable to 4 years with Shield Plus\n- Category: Electronics \u2014 eligible for standard return policy\n\n**Acmera ProBook Air 14**\n- Price: \u20b954,999\n- Display: 14\" IPS, 2560x1600\n- Processor: Intel Core i5-13500H\n- RAM: 8GB DDR5\n- Storage: 2\n\n---\n\n[Source: 09_electronics_catalog.md, Chunk 1]\n56GB NVMe SSD\n- Battery: Up to 12 hours\n- Warranty: 1 year standard\n- Category: Electronics\n\n## Smartphones\n\n**Acmera Pixel S24**\n- Price: \u20b934,999\n- Display: 6.4\" AMOLED, 120Hz\n- Processor: Snapdragon 8 Gen 3\n- RAM: 8GB\n- Storage: 128GB\n- Camera: 50MP main + 12MP ultrawide\n- Battery: 4500mAh\n- Warranty: 1 year standard\n\n**Acmera Pixel Lite**\n- Price: \u20b914,999\n- Display: 6.1\" LCD, 90Hz\n- Processor: Snapdragon 695\n- RAM: 4GB\n- Storage: 64GB (expandable)\n- Camera: 48MP main\n- Battery: 5000mAh\n- Warr\n\n---\n\n[Source: 07_promotional_events.md, Chunk 0]\n# Acmera Promotional Events Policy\n\n## Types of Promotional Events\n\nAcmera runs several types of promotional events throughout the year:\n\n**Seasonal Sales**: Major sale events tied to festivals and holidays \u2014 Diwali Dhamaka (October/November), Republic Day Sale (January), Independence Day Sale (August), and Year-End Clearance (December). These typically run for 5-7 days.\n\n**Flash Sales**: Short-duration sales lasting 6-24 hours, typically featuring a limited number of products at significant dis\n\n---\n\n[Source: 07_promotional_events.md, Chunk 1]\ncounts (40-70% off). Flash sales are announced 24 hours in advance via app notifications and email.\n\n**Clearance Events**: Quarterly clearance of end-of-line and overstocked products. Discounts range from 30-80%. Clearance items have limited stock and are sold on a first-come-first-served basis.\n\n**Premium-Exclusive Sales**: Available only to Premium members. These events feature curated selections with exclusive pricing not available during general sales.\n\n## Pricing During Promotions\n\nAll prom\n\n---\n\n[Source: 11_internal_pricing.md, Chunk 2]\nthreatens to cancel or downgrade, agents are authorized to offer:\n- One-time 20% discount on their next order\n- Complimentary 3-month Shield warranty extension on a recent purchase\n- \u20b92,000 Acmera Wallet credit\n\nThese retention offers should not be proactively mentioned. They are reactive tools for at-risk Premium members only.\n\n## Cost Price Reference (Q4 2025)\n\n- Acmera ProBook X15: Cost \u20b962,000 / Retail \u20b978,999 (margin 21.5%)\n- Acmera Pixel S24: Cost \u20b924,500 / Retail \u20b934,999 (margin 30%)\n- S",
+      "trace_id": "d1bf8681-90fd-4ee0-85ed-395ead55e601",
+      "elapsed_seconds": 1.38
+    },
+    "persona": "mismatch",
+    "category": "promotions"
+  },
+  {
+    "id": "mis003",
+    "query": "What are the shipping methods available for items bought during flash sales?",
+    "expected_answer": "Information not available in this document",
+    "generated_answer": {
+      "query": "What are the shipping methods available for items bought during flash sales?",
+      "answer": "The provided context does not specify the shipping methods available for items bought during flash sales. Therefore, I cannot provide that information.",
+      "retrieved_chunks": [
+        {
+          "id": 38,
+          "doc_name": "07_promotional_events.md",
+          "chunk_index": 1,
+          "content": "counts (40-70% off). Flash sales are announced 24 hours in advance via app notifications and email.\n\n**Clearance Events**: Quarterly clearance of end-of-line and overstocked products. Discounts range from 30-80%. Clearance items have limited stock and are sold on a first-come-first-served basis.\n\n**Premium-Exclusive Sales**: Available only to Premium members. These events feature curated selections with exclusive pricing not available during general sales.\n\n## Pricing During Promotions\n\nAll prom",
+          "metadata": {
+            "doc_name": "07_promotional_events.md",
+            "chunk_index": 1
+          },
+          "similarity": 0.5533
+        },
+        {
+          "id": 7,
+          "doc_name": "02_premium_membership.md",
+          "chunk_index": 2,
+          "content": "pping on all orders regardless of value.\n\nBoth tiers receive priority processing, meaning orders are picked and shipped within 4 hours during business days. Standard customers typically experience 24-48 hour processing times.\n\nDuring peak seasons (Diwali, end-of-year sales), Premium members' orders are prioritized over standard orders in the fulfillment queue.\n\n## Early Access and Exclusive Deals\n\nPremium members get 48-hour early access to all seasonal sales and new product launches. Premium Go",
+          "metadata": {
+            "doc_name": "02_premium_membership.md",
+            "chunk_index": 2
+          },
+          "similarity": 0.4716
+        },
+        {
+          "id": 13,
+          "doc_name": "02_premium_membership.md",
+          "chunk_index": 8,
+          "content": "h sales, clearance, seasonal sales) are normally subject to a restricted 15-day return window with restocking fees. Premium members are exempt from both the reduced window and the restocking fee \u2014 their standard extended window applies to all promotional purchases.\n\n### Refund Processing Priority\n\nRefunds for Premium members are processed within 2 business days of the item being received at our warehouse, compared to 5-7 business days for standard customers. Premium Gold members may also request",
+          "metadata": {
+            "doc_name": "02_premium_membership.md",
+            "chunk_index": 8
+          },
+          "similarity": 0.4585
+        },
+        {
+          "id": 40,
+          "doc_name": "07_promotional_events.md",
+          "chunk_index": 3,
+          "content": "uring promotional events are subject to modified return terms:\n\n- **Return window**: Reduced to 15 calendar days from delivery (standard is 30 days).\n- **Restocking fee**: A 10% restocking fee applies to all returns of promotional items.\n- **Final sale items**: Some clearance items may be marked as \"Final Sale\" and are not eligible for return or exchange. These are clearly labeled at the time of purchase.\n\n**Premium Member Exception**: Premium members (both Silver and Gold) are exempt from the r",
+          "metadata": {
+            "doc_name": "07_promotional_events.md",
+            "chunk_index": 3
+          },
+          "similarity": 0.4574
+        },
+        {
+          "id": 8,
+          "doc_name": "02_premium_membership.md",
+          "chunk_index": 3,
+          "content": "ld members additionally receive a quarterly exclusive discount code worth 15% off any single purchase.\n\nFlash sales and clearance events are accessible to Premium members 24 hours before general availability. Some limited-edition products are exclusively available to Premium Gold members.\n\n## Priority Support\n\nPremium Silver members are routed to a dedicated support queue with an average response time of under 2 hours. Premium Gold members have access to a direct phone line staffed 24/7 with sen",
+          "metadata": {
+            "doc_name": "02_premium_membership.md",
+            "chunk_index": 3
+          },
+          "similarity": 0.4554
+        }
+      ],
+      "context": "[Source: 07_promotional_events.md, Chunk 1]\ncounts (40-70% off). Flash sales are announced 24 hours in advance via app notifications and email.\n\n**Clearance Events**: Quarterly clearance of end-of-line and overstocked products. Discounts range from 30-80%. Clearance items have limited stock and are sold on a first-come-first-served basis.\n\n**Premium-Exclusive Sales**: Available only to Premium members. These events feature curated selections with exclusive pricing not available during general sales.\n\n## Pricing During Promotions\n\nAll prom\n\n---\n\n[Source: 02_premium_membership.md, Chunk 2]\npping on all orders regardless of value.\n\nBoth tiers receive priority processing, meaning orders are picked and shipped within 4 hours during business days. Standard customers typically experience 24-48 hour processing times.\n\nDuring peak seasons (Diwali, end-of-year sales), Premium members' orders are prioritized over standard orders in the fulfillment queue.\n\n## Early Access and Exclusive Deals\n\nPremium members get 48-hour early access to all seasonal sales and new product launches. Premium Go\n\n---\n\n[Source: 02_premium_membership.md, Chunk 8]\nh sales, clearance, seasonal sales) are normally subject to a restricted 15-day return window with restocking fees. Premium members are exempt from both the reduced window and the restocking fee \u2014 their standard extended window applies to all promotional purchases.\n\n### Refund Processing Priority\n\nRefunds for Premium members are processed within 2 business days of the item being received at our warehouse, compared to 5-7 business days for standard customers. Premium Gold members may also request\n\n---\n\n[Source: 07_promotional_events.md, Chunk 3]\nuring promotional events are subject to modified return terms:\n\n- **Return window**: Reduced to 15 calendar days from delivery (standard is 30 days).\n- **Restocking fee**: A 10% restocking fee applies to all returns of promotional items.\n- **Final sale items**: Some clearance items may be marked as \"Final Sale\" and are not eligible for return or exchange. These are clearly labeled at the time of purchase.\n\n**Premium Member Exception**: Premium members (both Silver and Gold) are exempt from the r\n\n---\n\n[Source: 02_premium_membership.md, Chunk 3]\nld members additionally receive a quarterly exclusive discount code worth 15% off any single purchase.\n\nFlash sales and clearance events are accessible to Premium members 24 hours before general availability. Some limited-edition products are exclusively available to Premium Gold members.\n\n## Priority Support\n\nPremium Silver members are routed to a dedicated support queue with an average response time of under 2 hours. Premium Gold members have access to a direct phone line staffed 24/7 with sen",
+      "trace_id": "c7931483-e685-4182-aa98-6cd372e0a90e",
+      "elapsed_seconds": 1.38
+    },
+    "persona": "mismatch",
+    "category": "promotions"
+  },
+  {
+    "id": "mis004",
+    "query": "Can you tell me how to get a refund for the laptop I bought last month?",
+    "expected_answer": "Information not available in this document",
+    "generated_answer": {
+      "query": "Can you tell me how to get a refund for the laptop I bought last month?",
+      "answer": "To get a refund for your laptop, you need to initiate a return within the return window specified for your membership tier. If you are a standard member, you have a 30-day return window from the date of delivery. If you are a Premium member, you have a 60-day return window.\n\nOnce you initiate the return, the processing time for the refund will take 5-7 business days for standard members and 2 business days for Premium members. The refund will be issued to the original payment method used for the purchase. \n\nPlease check your membership tier and ensure you are within the return window to proceed with the refund.",
+      "retrieved_chunks": [
+        {
+          "id": 43,
+          "doc_name": "08_support_tickets.md",
+          "chunk_index": 0,
+          "content": "# Resolved Support Tickets \u2014 Q4 2025\n\n## Ticket #ARC-78432: Return Request for Laptop\n**Customer**: Priya Sharma (priya.sharma@gmail.com)\n**Account**: Premium Gold Member since 2023\n**Date**: October 15, 2025\n\n**Issue**: Customer purchased an Acmera ProBook X15 laptop on September 2, 2025. Wants to return it on October 15 \u2014 43 days after delivery. Standard return window is 30 days.\n\n**Resolution**: Approved. Customer is Premium Gold member with 60-day return window. Return label issued. Refund o",
+          "metadata": {
+            "doc_name": "08_support_tickets.md",
+            "chunk_index": 0
+          },
+          "similarity": 0.5093
+        },
+        {
+          "id": 83,
+          "doc_name": "15_slack_support_chat.md",
+          "chunk_index": 5,
+          "content": "outside the 30-day return window by 1 day. But he says the laptop has a manufacturing defect \u2014 the trackpad clicks aren't registering. Should I push him to warranty or can we be flexible on the return?\n\n[9:35 AM] @team_lead_raj: 1 day over is tough. If it's genuinely defective, warranty is the right path. But use your judgment \u2014 if the customer is frustrated and the defect is obvious, you can approve the return as a goodwill exception. Just document the reason clearly. We'd rather have a happy",
+          "metadata": {
+            "doc_name": "15_slack_support_chat.md",
+            "chunk_index": 5
+          },
+          "similarity": 0.4323
+        },
+        {
+          "id": 79,
+          "doc_name": "15_slack_support_chat.md",
+          "chunk_index": 1,
+          "content": "er \u2014 it falls under warranty. Have him go through the warranty claim process. Don't apply the promotional return restrictions to genuinely defective products.\n\n[10:19 AM] @sarah_support: Got it. But what if he just wants a refund instead of a repair? Warranty process takes 7-14 days.\n\n[10:22 AM] @team_lead_raj: If the defect is confirmed, we can do a refund as a goodwill gesture. Use your 10% discount authority equivalent \u2014 basically, process it as a defective item return, not a standard return.",
+          "metadata": {
+            "doc_name": "15_slack_support_chat.md",
+            "chunk_index": 1
+          },
+          "similarity": 0.4289
+        },
+        {
+          "id": 31,
+          "doc_name": "06_support_faq.md",
+          "chunk_index": 2,
+          "content": "begins once we receive and inspect your returned item. Processing takes 5-7 business days for standard customers and 2 business days for Premium members. The time for the refund to appear in your account depends on your payment method \u2014 UPI is fastest (24 hours), cards take 5-7 days, net banking takes 7-10 days.\n\n**Q: Can I get a refund to a different payment method?**\nA: Refunds are always issued to the original payment method used for the purchase. We cannot redirect refunds to a different car",
+          "metadata": {
+            "doc_name": "06_support_faq.md",
+            "chunk_index": 2
+          },
+          "similarity": 0.4002
+        },
+        {
+          "id": 48,
+          "doc_name": "08_support_tickets.md",
+          "chunk_index": 5,
+          "content": "(\u20b92,499 paid, original price \u20b94,999). Wants to return after 22 days. Informed of 15-day promotional return window and 10% restocking fee. Customer disputes the policy, claims he wasn't aware at time of purchase.\n\n**Resolution**: Return denied per promotional events policy. The 15-day window and restocking fee were displayed on the product page and in the order confirmation email. Customer offered 15% discount coupon on next purchase as goodwill gesture. Customer accepted reluctantly.\n\n**Agent No",
+          "metadata": {
+            "doc_name": "08_support_tickets.md",
+            "chunk_index": 5
+          },
+          "similarity": 0.3976
+        }
+      ],
+      "context": "[Source: 08_support_tickets.md, Chunk 0]\n# Resolved Support Tickets \u2014 Q4 2025\n\n## Ticket #ARC-78432: Return Request for Laptop\n**Customer**: Priya Sharma (priya.sharma@gmail.com)\n**Account**: Premium Gold Member since 2023\n**Date**: October 15, 2025\n\n**Issue**: Customer purchased an Acmera ProBook X15 laptop on September 2, 2025. Wants to return it on October 15 \u2014 43 days after delivery. Standard return window is 30 days.\n\n**Resolution**: Approved. Customer is Premium Gold member with 60-day return window. Return label issued. Refund o\n\n---\n\n[Source: 15_slack_support_chat.md, Chunk 5]\noutside the 30-day return window by 1 day. But he says the laptop has a manufacturing defect \u2014 the trackpad clicks aren't registering. Should I push him to warranty or can we be flexible on the return?\n\n[9:35 AM] @team_lead_raj: 1 day over is tough. If it's genuinely defective, warranty is the right path. But use your judgment \u2014 if the customer is frustrated and the defect is obvious, you can approve the return as a goodwill exception. Just document the reason clearly. We'd rather have a happy\n\n---\n\n[Source: 15_slack_support_chat.md, Chunk 1]\ner \u2014 it falls under warranty. Have him go through the warranty claim process. Don't apply the promotional return restrictions to genuinely defective products.\n\n[10:19 AM] @sarah_support: Got it. But what if he just wants a refund instead of a repair? Warranty process takes 7-14 days.\n\n[10:22 AM] @team_lead_raj: If the defect is confirmed, we can do a refund as a goodwill gesture. Use your 10% discount authority equivalent \u2014 basically, process it as a defective item return, not a standard return.\n\n---\n\n[Source: 06_support_faq.md, Chunk 2]\nbegins once we receive and inspect your returned item. Processing takes 5-7 business days for standard customers and 2 business days for Premium members. The time for the refund to appear in your account depends on your payment method \u2014 UPI is fastest (24 hours), cards take 5-7 days, net banking takes 7-10 days.\n\n**Q: Can I get a refund to a different payment method?**\nA: Refunds are always issued to the original payment method used for the purchase. We cannot redirect refunds to a different car\n\n---\n\n[Source: 08_support_tickets.md, Chunk 5]\n(\u20b92,499 paid, original price \u20b94,999). Wants to return after 22 days. Informed of 15-day promotional return window and 10% restocking fee. Customer disputes the policy, claims he wasn't aware at time of purchase.\n\n**Resolution**: Return denied per promotional events policy. The 15-day window and restocking fee were displayed on the product page and in the order confirmation email. Customer offered 15% discount coupon on next purchase as goodwill gesture. Customer accepted reluctantly.\n\n**Agent No",
+      "trace_id": "dfad36c1-ed82-422e-883b-1e635d9d02d0",
+      "elapsed_seconds": 3.04
+    },
+    "persona": "mismatch",
+    "category": "membership"
+  },
+  {
+    "id": "mis005",
+    "query": "What are the features of the new smartphone that was just released? I heard there's a great camera.",
+    "expected_answer": "Information not available in this document",
+    "generated_answer": {
+      "query": "What are the features of the new smartphone that was just released? I heard there's a great camera.",
+      "answer": "The new smartphone released is the **Acmera Pixel S24**. Here are its features:\n\n- **Price**: \u20b934,999\n- **Display**: 6.4\" AMOLED, 120Hz\n- **Processor**: Snapdragon 8 Gen 3\n- **RAM**: 8GB\n- **Storage**: 128GB\n- **Camera**: 50MP main + 12MP ultrawide\n- **Battery**: 4500mAh\n- **Warranty**: 1 year standard\n\nThe camera setup includes a 50MP main camera, which is indeed a highlight of this smartphone.",
+      "retrieved_chunks": [
+        {
+          "id": 53,
+          "doc_name": "09_electronics_catalog.md",
+          "chunk_index": 1,
+          "content": "56GB NVMe SSD\n- Battery: Up to 12 hours\n- Warranty: 1 year standard\n- Category: Electronics\n\n## Smartphones\n\n**Acmera Pixel S24**\n- Price: \u20b934,999\n- Display: 6.4\" AMOLED, 120Hz\n- Processor: Snapdragon 8 Gen 3\n- RAM: 8GB\n- Storage: 128GB\n- Camera: 50MP main + 12MP ultrawide\n- Battery: 4500mAh\n- Warranty: 1 year standard\n\n**Acmera Pixel Lite**\n- Price: \u20b914,999\n- Display: 6.1\" LCD, 90Hz\n- Processor: Snapdragon 695\n- RAM: 4GB\n- Storage: 64GB (expandable)\n- Camera: 48MP main\n- Battery: 5000mAh\n- Warr",
+          "metadata": {
+            "doc_name": "09_electronics_catalog.md",
+            "chunk_index": 1
+          },
+          "similarity": 0.4716
+        },
+        {
+          "id": 54,
+          "doc_name": "09_electronics_catalog.md",
+          "chunk_index": 2,
+          "content": "anty: 1 year standard\n\n## Smart Home\n\n**SmartHome Hub Pro**\n- Price: \u20b98,999\n- Connectivity: WiFi 6, Bluetooth 5.2, Zigbee, Thread\n- Display: 7\" touchscreen\n- Speakers: Dual 10W with Dolby Audio\n- Voice Assistant: Acmera AI Assistant\n- Warranty: 1 year standard\n- Note: Hub Pro is compatible with all major smart home ecosystems\n\n**SmartHome Camera 360**\n- Price: \u20b93,999\n- Resolution: 2K (2304x1296)\n- Field of View: 360\u00b0 pan, 115\u00b0 tilt\n- Night Vision: Up to 10 meters\n- Storage: microSD (up to 256GB)",
+          "metadata": {
+            "doc_name": "09_electronics_catalog.md",
+            "chunk_index": 2
+          },
+          "similarity": 0.3679
+        },
+        {
+          "id": 91,
+          "doc_name": "17_smart_home_ecosystem.md",
+          "chunk_index": 3,
+          "content": "ecording history, motion zones, person detection, package detection\n\nCloud storage plans are per camera. Multiple cameras require separate subscriptions unless bundled (3-camera bundle: \u20b9449/month for Premium on all three).\n\n## Privacy and Data\n\nVideo footage is encrypted in transit and at rest. Acmera does not access or review customer video footage unless compelled by law enforcement with a valid legal order. Customers can delete all stored footage at any time through the app.\n\nVoice interacti",
+          "metadata": {
+            "doc_name": "17_smart_home_ecosystem.md",
+            "chunk_index": 3
+          },
+          "similarity": 0.3045
+        },
+        {
+          "id": 94,
+          "doc_name": "18_sustainability.md",
+          "chunk_index": 1,
+          "content": "ronics. Customers can trade in old Acmera devices (or select competitor devices) for Acmera Wallet credit:\n\n- Laptops: Up to \u20b925,000 credit depending on condition and model\n- Smartphones: Up to \u20b910,000 credit\n- Smart home devices: Up to \u20b92,000 credit\n\nTrade-in devices are refurbished and resold through the Acmera Renewed program, or responsibly recycled if beyond repair.\n\n## Acmera Renewed\n\nRefurbished products are sold at 30-50% discount with a 6-month warranty. Renewed products are graded:\n- *",
+          "metadata": {
+            "doc_name": "18_sustainability.md",
+            "chunk_index": 1
+          },
+          "similarity": 0.2928
+        },
+        {
+          "id": 90,
+          "doc_name": "17_smart_home_ecosystem.md",
+          "chunk_index": 2,
+          "content": "tomatically detect other Acmera smart devices on the same network. Non-Acmera devices can be added through the Devices section.\n\n**SmartHome Camera 360**: Requires the Acmera app for initial setup. Scan the QR code on the camera base, connect to WiFi, and choose your storage option (local microSD or cloud).\n\n## Cloud Storage Plans for Cameras\n\n- **Free tier**: Live view only, no recording history\n- **Basic (\u20b999/month)**: 7-day recording history, motion alerts\n- **Premium (\u20b9199/month)**: 30-day r",
+          "metadata": {
+            "doc_name": "17_smart_home_ecosystem.md",
+            "chunk_index": 2
+          },
+          "similarity": 0.2917
+        }
+      ],
+      "context": "[Source: 09_electronics_catalog.md, Chunk 1]\n56GB NVMe SSD\n- Battery: Up to 12 hours\n- Warranty: 1 year standard\n- Category: Electronics\n\n## Smartphones\n\n**Acmera Pixel S24**\n- Price: \u20b934,999\n- Display: 6.4\" AMOLED, 120Hz\n- Processor: Snapdragon 8 Gen 3\n- RAM: 8GB\n- Storage: 128GB\n- Camera: 50MP main + 12MP ultrawide\n- Battery: 4500mAh\n- Warranty: 1 year standard\n\n**Acmera Pixel Lite**\n- Price: \u20b914,999\n- Display: 6.1\" LCD, 90Hz\n- Processor: Snapdragon 695\n- RAM: 4GB\n- Storage: 64GB (expandable)\n- Camera: 48MP main\n- Battery: 5000mAh\n- Warr\n\n---\n\n[Source: 09_electronics_catalog.md, Chunk 2]\nanty: 1 year standard\n\n## Smart Home\n\n**SmartHome Hub Pro**\n- Price: \u20b98,999\n- Connectivity: WiFi 6, Bluetooth 5.2, Zigbee, Thread\n- Display: 7\" touchscreen\n- Speakers: Dual 10W with Dolby Audio\n- Voice Assistant: Acmera AI Assistant\n- Warranty: 1 year standard\n- Note: Hub Pro is compatible with all major smart home ecosystems\n\n**SmartHome Camera 360**\n- Price: \u20b93,999\n- Resolution: 2K (2304x1296)\n- Field of View: 360\u00b0 pan, 115\u00b0 tilt\n- Night Vision: Up to 10 meters\n- Storage: microSD (up to 256GB)\n\n---\n\n[Source: 17_smart_home_ecosystem.md, Chunk 3]\necording history, motion zones, person detection, package detection\n\nCloud storage plans are per camera. Multiple cameras require separate subscriptions unless bundled (3-camera bundle: \u20b9449/month for Premium on all three).\n\n## Privacy and Data\n\nVideo footage is encrypted in transit and at rest. Acmera does not access or review customer video footage unless compelled by law enforcement with a valid legal order. Customers can delete all stored footage at any time through the app.\n\nVoice interacti\n\n---\n\n[Source: 18_sustainability.md, Chunk 1]\nronics. Customers can trade in old Acmera devices (or select competitor devices) for Acmera Wallet credit:\n\n- Laptops: Up to \u20b925,000 credit depending on condition and model\n- Smartphones: Up to \u20b910,000 credit\n- Smart home devices: Up to \u20b92,000 credit\n\nTrade-in devices are refurbished and resold through the Acmera Renewed program, or responsibly recycled if beyond repair.\n\n## Acmera Renewed\n\nRefurbished products are sold at 30-50% discount with a 6-month warranty. Renewed products are graded:\n- *\n\n---\n\n[Source: 17_smart_home_ecosystem.md, Chunk 2]\ntomatically detect other Acmera smart devices on the same network. Non-Acmera devices can be added through the Devices section.\n\n**SmartHome Camera 360**: Requires the Acmera app for initial setup. Scan the QR code on the camera base, connect to WiFi, and choose your storage option (local microSD or cloud).\n\n## Cloud Storage Plans for Cameras\n\n- **Free tier**: Live view only, no recording history\n- **Basic (\u20b999/month)**: 7-day recording history, motion alerts\n- **Premium (\u20b9199/month)**: 30-day r",
+      "trace_id": "c77d4fcc-1a8f-4a32-bfcb-e17c323128a9",
+      "elapsed_seconds": 3.15
+    },
+    "persona": "mismatch",
+    "category": "membership"
+  },
+  {
+    "id": "mis006",
+    "query": "How do I upgrade my Acmera Premium membership to a higher tier for better benefits?",
+    "expected_answer": "Information not available in this document",
+    "generated_answer": {
+      "query": "How do I upgrade my Acmera Premium membership to a higher tier for better benefits?",
+      "answer": "To upgrade your Acmera Premium membership to a higher tier, you need to meet the spending requirements for the next tier:\n\n1. **Upgrade to Premium Silver**: You will be automatically granted this tier after spending \u20b925,000 in a calendar year or maintaining an active account for 2+ years.\n\n2. **Upgrade to Premium Gold**: You can achieve this by either spending \u20b975,000 in a calendar year or maintaining Premium Silver status for 3+ consecutive years.\n\nOnce you meet the required spending or duration, your membership status will be reviewed annually on the anniversary of your enrollment, and you will be upgraded accordingly.",
+      "retrieved_chunks": [
+        {
+          "id": 5,
+          "doc_name": "02_premium_membership.md",
+          "chunk_index": 0,
+          "content": "# Acmera Premium Membership Guide\n\n## Overview\n\nAcmera Premium is our loyalty program designed for frequent shoppers and long-term customers. Premium members enjoy a range of exclusive benefits across shopping, shipping, support, and account management. This guide outlines all benefits available to current Premium members.\n\n## Membership Tiers\n\nAcmera Premium has two tiers:\n\n- **Premium Silver**: Automatically granted after spending \u20b925,000 in a calendar year or maintaining an active account for",
+          "metadata": {
+            "doc_name": "02_premium_membership.md",
+            "chunk_index": 0
+          },
+          "similarity": 0.7126
+        },
+        {
+          "id": 33,
+          "doc_name": "06_support_faq.md",
+          "chunk_index": 4,
+          "content": "w do I check my Premium membership status?**\nA: Go to \"Account Settings\" \u2192 \"Membership\" in the app or website. You'll see your current tier, annual spending, and the date of your next status review.\n\n**Q: Can I share my Premium benefits with family members?**\nA: Premium benefits are tied to individual accounts and cannot be shared. However, Premium Gold members can add one secondary account holder who receives Premium Silver benefits. Contact your account manager to set this up.\n\n**Q: What happe",
+          "metadata": {
+            "doc_name": "06_support_faq.md",
+            "chunk_index": 4
+          },
+          "similarity": 0.5951
+        },
+        {
+          "id": 6,
+          "doc_name": "02_premium_membership.md",
+          "chunk_index": 1,
+          "content": "2+ years.\n- **Premium Gold**: Granted after spending \u20b975,000 in a calendar year or maintaining Premium Silver status for 3+ consecutive years.\n\nMembership status is reviewed annually on the anniversary of enrollment. Members who fall below the spending threshold may be downgraded but will retain their current tier benefits for a 90-day grace period.\n\n## Shipping Benefits\n\nPremium Silver members receive free standard shipping on all orders over \u20b9500. Premium Gold members receive free express shi",
+          "metadata": {
+            "doc_name": "02_premium_membership.md",
+            "chunk_index": 1
+          },
+          "similarity": 0.5378
+        },
+        {
+          "id": 32,
+          "doc_name": "06_support_faq.md",
+          "chunk_index": 3,
+          "content": "d, account, or payment method. The only exception is that Premium Gold members may opt for instant Acmera Wallet credit instead.\n\n**Q: I returned an item but haven't received my refund yet.**\nA: First, check that your return has been received at our warehouse \u2014 you can track this through the returns portal. If it shows as received and it's been more than 7 business days (or 3 business days for Premium members), contact support with your return tracking number.\n\n## Account and Membership\n\n**Q: Ho",
+          "metadata": {
+            "doc_name": "06_support_faq.md",
+            "chunk_index": 3
+          },
+          "similarity": 0.5211
+        },
+        {
+          "id": 86,
+          "doc_name": "16_referral_program.md",
+          "chunk_index": 1,
+          "content": "n the total rewards earned, but each individual referral must result in a genuine first purchase by a new customer.\n\nPremium members earn enhanced referral rewards:\n- Premium Silver: \u20b9750 per referral (instead of \u20b9500)\n- Premium Gold: \u20b91,000 per referral (instead of \u20b9500)\n\n## Terms and Conditions\n\n- The referred customer must be a genuinely new Acmera customer (no previous account).\n- Self-referrals are not permitted. Acmera monitors for referral abuse and may terminate referral privileges.\n- Re",
+          "metadata": {
+            "doc_name": "16_referral_program.md",
+            "chunk_index": 1
+          },
+          "similarity": 0.4997
+        }
+      ],
+      "context": "[Source: 02_premium_membership.md, Chunk 0]\n# Acmera Premium Membership Guide\n\n## Overview\n\nAcmera Premium is our loyalty program designed for frequent shoppers and long-term customers. Premium members enjoy a range of exclusive benefits across shopping, shipping, support, and account management. This guide outlines all benefits available to current Premium members.\n\n## Membership Tiers\n\nAcmera Premium has two tiers:\n\n- **Premium Silver**: Automatically granted after spending \u20b925,000 in a calendar year or maintaining an active account for\n\n---\n\n[Source: 06_support_faq.md, Chunk 4]\nw do I check my Premium membership status?**\nA: Go to \"Account Settings\" \u2192 \"Membership\" in the app or website. You'll see your current tier, annual spending, and the date of your next status review.\n\n**Q: Can I share my Premium benefits with family members?**\nA: Premium benefits are tied to individual accounts and cannot be shared. However, Premium Gold members can add one secondary account holder who receives Premium Silver benefits. Contact your account manager to set this up.\n\n**Q: What happe\n\n---\n\n[Source: 02_premium_membership.md, Chunk 1]\n2+ years.\n- **Premium Gold**: Granted after spending \u20b975,000 in a calendar year or maintaining Premium Silver status for 3+ consecutive years.\n\nMembership status is reviewed annually on the anniversary of enrollment. Members who fall below the spending threshold may be downgraded but will retain their current tier benefits for a 90-day grace period.\n\n## Shipping Benefits\n\nPremium Silver members receive free standard shipping on all orders over \u20b9500. Premium Gold members receive free express shi\n\n---\n\n[Source: 06_support_faq.md, Chunk 3]\nd, account, or payment method. The only exception is that Premium Gold members may opt for instant Acmera Wallet credit instead.\n\n**Q: I returned an item but haven't received my refund yet.**\nA: First, check that your return has been received at our warehouse \u2014 you can track this through the returns portal. If it shows as received and it's been more than 7 business days (or 3 business days for Premium members), contact support with your return tracking number.\n\n## Account and Membership\n\n**Q: Ho\n\n---\n\n[Source: 16_referral_program.md, Chunk 1]\nn the total rewards earned, but each individual referral must result in a genuine first purchase by a new customer.\n\nPremium members earn enhanced referral rewards:\n- Premium Silver: \u20b9750 per referral (instead of \u20b9500)\n- Premium Gold: \u20b91,000 per referral (instead of \u20b9500)\n\n## Terms and Conditions\n\n- The referred customer must be a genuinely new Acmera customer (no previous account).\n- Self-referrals are not permitted. Acmera monitors for referral abuse and may terminate referral privileges.\n- Re",
+      "trace_id": "ee909882-1f35-40c6-bb9b-81acd0632ef1",
+      "elapsed_seconds": 3.16
+    },
+    "persona": "mismatch",
+    "category": "membership"
+  }
+]

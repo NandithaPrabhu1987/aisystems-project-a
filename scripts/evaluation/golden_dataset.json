@@ -1,0 +1,602 @@
+[
+  {
+    "id": "q01",
+    "query": "What is the standard return window for products?",
+    "expected_answer": "The standard return window is 30 calendar days from the delivery date.",
+    "expected_source": "01_return_policy.md",
+    "difficulty": "easy",
+    "category": "returns"
+  },
+  {
+    "id": "q02",
+    "query": "Does Acmera ship internationally?",
+    "expected_answer": "No, Acmera currently does not offer international shipping. Customers can use third-party forwarding services at their own cost and risk.",
+    "expected_source": "03_shipping_policy.md",
+    "difficulty": "easy",
+    "category": "shipping"
+  },
+  {
+    "id": "q03",
+    "query": "What warranty comes with Acmera electronics?",
+    "expected_answer": "All electronics come with a minimum 1-year manufacturer warranty covering defects in materials and workmanship under normal use.",
+    "expected_source": "04_warranty_policy.md",
+    "difficulty": "easy",
+    "category": "warranty"
+  },
+  {
+    "id": "q04",
+    "query": "What is the spending threshold for Premium Gold?",
+    "expected_answer": "Premium Gold requires spending \u20b975,000 in a calendar year or maintaining Premium Silver for 3+ consecutive years.",
+    "expected_source": "02_premium_membership.md",
+    "difficulty": "easy",
+    "category": "membership"
+  },
+  {
+    "id": "q05",
+    "query": "What items cannot be returned?",
+    "expected_answer": "Opened software, digital downloads, gift cards, perishable goods, and personalized items cannot be returned.",
+    "expected_source": "01_return_policy.md",
+    "difficulty": "easy",
+    "category": "returns"
+  },
+  {
+    "id": "q06",
+    "query": "What payment methods does Acmera accept?",
+    "expected_answer": "Acmera accepts credit/debit cards (Visa, Mastercard, Amex, RuPay), UPI, net banking, Acmera Wallet, EMI options, and Cash on Delivery.",
+    "expected_source": "05_payment_methods.md",
+    "difficulty": "easy",
+    "category": "payments"
+  },
+  {
+    "id": "q07",
+    "query": "Is there a fee for Cash on Delivery orders?",
+    "expected_answer": "Yes, a \u20b949 COD convenience fee applies. COD is available for orders between \u20b9200 and \u20b925,000.",
+    "expected_source": "05_payment_methods.md",
+    "difficulty": "easy",
+    "category": "payments"
+  },
+  {
+    "id": "q08",
+    "query": "How long is the return window for items purchased during promotional events?",
+    "expected_answer": "Items purchased during promotional events have a reduced return window of 15 calendar days from delivery, unless you're a Premium member who gets the standard extended window.",
+    "expected_source": "07_promotional_events.md",
+    "difficulty": "medium",
+    "category": "promotions"
+  },
+  {
+    "id": "q09",
+    "query": "What is the price of the Acmera ProBook X15?",
+    "expected_answer": "The Acmera ProBook X15 is priced at \u20b978,999.",
+    "expected_source": "09_electronics_catalog.md",
+    "difficulty": "easy",
+    "category": "products"
+  },
+  {
+    "id": "q10",
+    "query": "Can I delete my Acmera account?",
+    "expected_answer": "Yes, you can request account deletion through Account Settings or by contacting support. Deletion is permanent and irreversible, and you'll lose all order history, wallet balance, and Premium membership status.",
+    "expected_source": "10_account_management.md",
+    "difficulty": "medium",
+    "category": "account"
+  },
+  {
+    "id": "q11",
+    "query": "What is the maximum balance I can have in my Acmera Wallet?",
+    "expected_answer": "The maximum wallet balance is \u20b950,000 at any time.",
+    "expected_source": "13_acmera_wallet.md",
+    "difficulty": "easy",
+    "category": "wallet"
+  },
+  {
+    "id": "q12",
+    "query": "How much do I earn when I refer a friend?",
+    "expected_answer": "You receive \u20b9500 Acmera Wallet credit when a referred friend makes their first purchase of \u20b91,000 or more. Premium Silver members earn \u20b9750 and Premium Gold members earn \u20b91,000.",
+    "expected_source": "16_referral_program.md",
+    "difficulty": "medium",
+    "category": "referrals"
+  },
+  {
+    "id": "q13",
+    "query": "Can I combine promotional discounts with coupon codes?",
+    "expected_answer": "No, promotional discounts cannot be combined with coupon codes or other offers unless explicitly stated.",
+    "expected_source": "07_promotional_events.md",
+    "difficulty": "easy",
+    "category": "promotions"
+  },
+  {
+    "id": "q14",
+    "query": "What authentication does Acmera use for account security?",
+    "expected_answer": "Acmera uses two-factor authentication (2FA) for all account logins. Customers can choose between SMS-based or app-based authentication.",
+    "expected_source": "10_account_management.md",
+    "difficulty": "easy",
+    "category": "account"
+  },
+  {
+    "id": "q15",
+    "query": "If a payment fails, will money be deducted from my account?",
+    "expected_answer": "No, if a payment fails, the order is not placed and no amount is deducted. In rare cases where money is debited but the order isn't confirmed, a refund is initiated automatically within 24 hours.",
+    "expected_source": "05_payment_methods.md",
+    "difficulty": "medium",
+    "category": "payments"
+  },
+  {
+    "id": "q16",
+    "query": "Can I withdraw money from my Acmera Wallet to my bank account?",
+    "expected_answer": "No, wallet balance cannot be withdrawn as cash or transferred to a bank account. It can only be used for purchases on the Acmera platform.",
+    "expected_source": "13_acmera_wallet.md",
+    "difficulty": "easy",
+    "category": "wallet"
+  },
+  {
+    "id": "q17",
+    "query": "What happens if I return an order that was made using a referral code?",
+    "expected_answer": "If the referred customer's first order is returned, the referral credit is revoked. The order must not be cancelled or returned for the referral reward to be valid.",
+    "expected_source": "16_referral_program.md",
+    "difficulty": "medium",
+    "category": "referrals"
+  },
+  {
+    "id": "q18",
+    "query": "Is there a restocking fee for returning promotional items?",
+    "expected_answer": "Yes, a 10% restocking fee applies to all returns of promotional items. However, Premium members (both Silver and Gold) are exempt from this fee.",
+    "expected_source": "07_promotional_events.md",
+    "difficulty": "medium",
+    "category": "promotions"
+  },
+  {
+    "id": "q19",
+    "query": "How long does it take for UPI refunds to be processed?",
+    "expected_answer": "UPI refunds are processed within 24 hours.",
+    "expected_source": "05_payment_methods.md",
+    "difficulty": "easy",
+    "category": "payments"
+  },
+  {
+    "id": "q20",
+    "query": "What is the minimum load amount for Acmera Wallet?",
+    "expected_answer": "The minimum load amount is \u20b9100.",
+    "expected_source": "13_acmera_wallet.md",
+    "difficulty": "easy",
+    "category": "wallet"
+  },
+  {
+    "id": "q21",
+    "query": "How many people can I refer per year?",
+    "expected_answer": "Customers can refer up to 20 people per calendar year.",
+    "expected_source": "16_referral_program.md",
+    "difficulty": "easy",
+    "category": "referrals"
+  },
+  {
+    "id": "q22",
+    "query": "Do Premium members get exemptions from promotional return policies?",
+    "expected_answer": "Yes, Premium members (both Silver and Gold) are exempt from the reduced return window and restocking fee. Their standard extended return windows apply to all promotional purchases. However, even Premium members cannot return items marked as 'Final Sale'.",
+    "expected_source": "07_promotional_events.md",
+    "difficulty": "hard",
+    "category": "promotions"
+  },
+  {
+    "id": "q23",
+    "query": "What data does Acmera collect from customer accounts?",
+    "expected_answer": "Acmera collects name, email, phone number, shipping addresses, tokenized payment details, order history, browsing history on the platform, and support interaction logs.",
+    "expected_source": "10_account_management.md",
+    "difficulty": "medium",
+    "category": "account"
+  },
+  {
+    "id": "q24",
+    "query": "How long do promotional wallet credits last?",
+    "expected_answer": "Promotional wallet credits have a 90-day expiry from the date of issue and are applied before regular wallet balance during checkout.",
+    "expected_source": "13_acmera_wallet.md",
+    "difficulty": "medium",
+    "category": "wallet"
+  },
+  {
+    "id": "q25",
+    "query": "What discount does the referee get on their first order?",
+    "expected_answer": "The referee (new customer) receives \u20b9300 off their first order when they sign up using a referral code and make a purchase of \u20b91,000 or more.",
+    "expected_source": "16_referral_program.md",
+    "difficulty": "easy",
+    "category": "referrals"
+  },
+  {
+    "id": "q26",
+    "query": "Which banks offer EMI options on Acmera?",
+    "expected_answer": "EMI is available on credit cards from HDFC, ICICI, SBI, Axis, and Kotak banks, with tenure options of 3, 6, 9, or 12 months depending on the product and card issuer.",
+    "expected_source": "05_payment_methods.md",
+    "difficulty": "medium",
+    "category": "payments"
+  },
+  {
+    "id": "q27",
+    "query": "What happens to my wallet balance if my account is inactive?",
+    "expected_answer": "If an account is inactive for 12 consecutive months, a notification is sent. After 18 months of inactivity, the wallet balance is forfeited.",
+    "expected_source": "13_acmera_wallet.md",
+    "difficulty": "medium",
+    "category": "wallet"
+  },
+  {
+    "id": "q28",
+    "query": "When are Flash Sales announced?",
+    "expected_answer": "Flash sales are announced 24 hours in advance via app notifications and email. They typically last 6-24 hours and feature limited products at 40-70% off.",
+    "expected_source": "07_promotional_events.md",
+    "difficulty": "medium",
+    "category": "promotions"
+  },
+  {
+    "id": "q29",
+    "query": "Can I opt out of marketing emails?",
+    "expected_answer": "Yes, customers can manage their marketing preferences at any time through Account Settings \u2192 Notifications. Opting out of marketing does not affect transactional notifications like order updates.",
+    "expected_source": "10_account_management.md",
+    "difficulty": "easy",
+    "category": "account"
+  },
+  {
+    "id": "q30",
+    "query": "Are self-referrals allowed in the referral program?",
+    "expected_answer": "No, self-referrals are not permitted. Acmera monitors for referral abuse and may terminate referral privileges.",
+    "expected_source": "16_referral_program.md",
+    "difficulty": "easy",
+    "category": "referrals"
+  },
+  {
+    "id": "q31",
+    "query": "How do I track my order?",
+    "expected_answer": "You can track your order through the Acmera app or website by going to 'My Orders' and selecting the order. You'll see real-time status updates and estimated delivery time, plus receive SMS and email notifications at each stage.",
+    "expected_source": "06_support_faq.md",
+    "difficulty": "easy",
+    "category": "support"
+  },
+  {
+    "id": "q32",
+    "query": "What should I do if my ProBook won't turn on?",
+    "expected_answer": "Ensure the laptop is charged by connecting the charger and waiting 15 minutes. Then perform a hard reset by holding the power button for 15 seconds. If the issue persists, it may be a hardware defect covered under warranty.",
+    "expected_source": "14_probook_troubleshooting.md",
+    "difficulty": "medium",
+    "category": "troubleshooting"
+  },
+  {
+    "id": "q33",
+    "query": "What cloud storage plans are available for smart home cameras?",
+    "expected_answer": "Free tier (live view only), Basic at \u20b999/month (7-day history, motion alerts), and Premium at \u20b9199/month (30-day history, motion zones, person/package detection). Multiple cameras require separate subscriptions unless bundled.",
+    "expected_source": "17_smart_home_ecosystem.md",
+    "difficulty": "medium",
+    "category": "smart_home"
+  },
+  {
+    "id": "q34",
+    "query": "Does Acmera offer a trade-in program?",
+    "expected_answer": "Yes, Acmera offers trade-in for electronics with wallet credit: up to \u20b925,000 for laptops, \u20b910,000 for smartphones, and \u20b92,000 for smart home devices. Trade-in devices are refurbished and resold or responsibly recycled.",
+    "expected_source": "18_sustainability.md",
+    "difficulty": "easy",
+    "category": "sustainability"
+  },
+  {
+    "id": "q35",
+    "query": "What are the benefits of an Acmera for Business account?",
+    "expected_answer": "Benefits include GST-compliant invoicing, net-30 payment terms, dedicated account manager for accounts over \u20b910 lakh annually, volume pricing, asset tagging, and centralized billing across multiple offices.",
+    "expected_source": "19_acmera_business.md",
+    "difficulty": "medium",
+    "category": "business"
+  },
+  {
+    "id": "q36",
+    "query": "What bulk pricing discounts does Acmera offer for corporate gifting?",
+    "expected_answer": "10-49 units get 10% off, 50-99 units get 15% off, and 100+ units get 20% off plus free express shipping. Custom quotes available for orders exceeding 500 units.",
+    "expected_source": "12_corporate_gifting.md",
+    "difficulty": "medium",
+    "category": "corporate"
+  },
+  {
+    "id": "q37",
+    "query": "Can I change my delivery address after placing an order?",
+    "expected_answer": "Address changes are only possible if the order has not yet been shipped. Contact support immediately with your order number. Once the package is handed to the carrier, the address cannot be modified.",
+    "expected_source": "06_support_faq.md",
+    "difficulty": "easy",
+    "category": "support"
+  },
+  {
+    "id": "q38",
+    "query": "What is Acmera's dead pixel policy for displays?",
+    "expected_answer": "Acmera's dead pixel policy allows warranty claims if there are 5 or more dead pixels, or 1 or more in the center third of the display.",
+    "expected_source": "14_probook_troubleshooting.md",
+    "difficulty": "medium",
+    "category": "troubleshooting"
+  },
+  {
+    "id": "q39",
+    "query": "Is the SmartHome Hub Pro compatible with Apple HomeKit?",
+    "expected_answer": "No, the Hub Pro is not currently HomeKit compatible, but it's planned for Q2 2026. However, the SmartHome Camera 360 is HomeKit compatible.",
+    "expected_source": "17_smart_home_ecosystem.md",
+    "difficulty": "medium",
+    "category": "smart_home"
+  },
+  {
+    "id": "q40",
+    "query": "What packaging materials does Acmera use?",
+    "expected_answer": "All Acmera products ship in 100% recyclable packaging with no single-use plastics since January 2025. Packaging uses soy-based inks, FSC-certified cardboard, and molded pulp inserts instead of polystyrene.",
+    "expected_source": "18_sustainability.md",
+    "difficulty": "easy",
+    "category": "sustainability"
+  },
+  {
+    "id": "q41",
+    "query": "What pre-configuration services does Acmera offer for business IT purchases?",
+    "expected_answer": "For 50+ devices, Acmera offers OS/software pre-installation, WiFi/VPN pre-configuration, asset tag labeling, and direct-to-desk shipping. This adds \u20b9500 per device and 3-5 business days to fulfillment.",
+    "expected_source": "19_acmera_business.md",
+    "difficulty": "hard",
+    "category": "business"
+  },
+  {
+    "id": "q42",
+    "query": "Can corporate gifting orders be customized?",
+    "expected_answer": "Yes, for orders of 50+ units, products can be customized with laser engraving on electronics, custom packaging with company branding, and personalized greeting cards. This adds 7-10 business days and customized items cannot be returned.",
+    "expected_source": "12_corporate_gifting.md",
+    "difficulty": "medium",
+    "category": "corporate"
+  },
+  {
+    "id": "q43",
+    "query": "What should I do if my product arrives damaged?",
+    "expected_answer": "Report the damage within 48 hours of delivery through the app or by contacting support. Include photos of the damaged product and packaging. Acmera will arrange a free replacement or full refund with no need to return the damaged item in most cases.",
+    "expected_source": "06_support_faq.md",
+    "difficulty": "easy",
+    "category": "support"
+  },
+  {
+    "id": "q44",
+    "query": "When should I file a warranty claim versus returning a product?",
+    "expected_answer": "Within the return window (30 days standard, 45 days Premium Silver, 60 days Premium Gold), returning is often faster than a warranty claim. After the return window, file a warranty claim through support, which typically takes 7-14 business days.",
+    "expected_source": "14_probook_troubleshooting.md",
+    "difficulty": "hard",
+    "category": "troubleshooting"
+  },
+  {
+    "id": "q45",
+    "query": "How does Acmera handle privacy for smart home cameras?",
+    "expected_answer": "Video footage is encrypted in transit and at rest. Acmera does not access customer video footage unless compelled by law enforcement with a valid legal order. Customers can delete all stored footage at any time through the app.",
+    "expected_source": "17_smart_home_ecosystem.md",
+    "difficulty": "medium",
+    "category": "smart_home"
+  },
+  {
+    "id": "q46",
+    "query": "What is Acmera Renewed and what warranty does it come with?",
+    "expected_answer": "Acmera Renewed sells refurbished products at 30-50% discount with a 6-month warranty. Products are graded A (like new), B (good condition), or C (functional with visible wear). They follow the standard return policy.",
+    "expected_source": "18_sustainability.md",
+    "difficulty": "medium",
+    "category": "sustainability"
+  },
+  {
+    "id": "q47",
+    "query": "What payment terms are available for business accounts?",
+    "expected_answer": "Business accounts can get net-30 payment terms subject to credit approval, along with GST-compliant invoicing and centralized billing across multiple offices.",
+    "expected_source": "19_acmera_business.md",
+    "difficulty": "easy",
+    "category": "business"
+  },
+  {
+    "id": "q48",
+    "query": "What is the minimum order quantity for corporate bulk returns?",
+    "expected_answer": "Bulk returns must be for a minimum of 5 units. Partial returns below this threshold are not accepted for corporate orders.",
+    "expected_source": "12_corporate_gifting.md",
+    "difficulty": "medium",
+    "category": "corporate"
+  },
+  {
+    "id": "q49",
+    "query": "Can Premium benefits be shared with family members?",
+    "expected_answer": "No, Premium benefits are tied to individual accounts and cannot be shared. However, Premium Gold members can add one secondary account holder who receives Premium Silver benefits by contacting their account manager.",
+    "expected_source": "06_support_faq.md",
+    "difficulty": "medium",
+    "category": "support"
+  },
+  {
+    "id": "q50",
+    "query": "What happens if battery health drops below 80% within the first year?",
+    "expected_answer": "If battery health drops below 80% within the first year, this is considered a defect and is covered under standard warranty for replacement.",
+    "expected_source": "14_probook_troubleshooting.md",
+    "difficulty": "medium",
+    "category": "troubleshooting"
+  },
+  {
+    "query": "What do I need to provide to initiate a return for a product I bought from Acmera?",
+    "expected_answer": "You need to provide a valid order number and the email address associated with your account.",
+    "difficulty": "medium",
+    "category": "returns",
+    "expected_source": "01_return_policy.md",
+    "id": "syn001"
+  },
+  {
+    "query": "Can I return an opened software product that I purchased from Acmera?",
+    "expected_answer": "No, opened software is not returnable under any circumstances.",
+    "difficulty": "medium",
+    "category": "returns",
+    "expected_source": "01_return_policy.md",
+    "id": "syn002"
+  },
+  {
+    "query": "What are the differences in shipping benefits between Premium Silver and Premium Gold members?",
+    "expected_answer": "Premium Silver members receive free standard shipping on orders over \u20b9500, while Premium Gold members receive free express shipping on all orders regardless of value.",
+    "difficulty": "medium",
+    "category": "membership",
+    "expected_source": "02_premium_membership.md",
+    "id": "syn003"
+  },
+  {
+    "query": "If I am a Premium Silver member and my spending falls below \u20b925,000 next year, will I lose my benefits immediately?",
+    "expected_answer": "No, you will retain your current tier benefits for a 90-day grace period before being downgraded.",
+    "difficulty": "medium",
+    "category": "membership",
+    "expected_source": "02_premium_membership.md",
+    "id": "syn004"
+  },
+  {
+    "query": "What are the shipping options available for orders under \u20b9999, and how long does each take?",
+    "expected_answer": "For orders under \u20b9999, the shipping options are Standard Shipping, which takes 5-7 business days with a flat fee of \u20b999, and Express Shipping, which takes 2-3 business days for \u20b9199.",
+    "difficulty": "medium",
+    "category": "shipping",
+    "expected_source": "03_shipping_policy.md",
+    "id": "syn005"
+  },
+  {
+    "query": "Can I get same-day delivery if I place my order after 12:00 PM, and what are the costs involved?",
+    "expected_answer": "No, same-day delivery is only available for orders placed before 12:00 PM. It costs \u20b9399 for all customers in select metro cities.",
+    "difficulty": "medium",
+    "category": "shipping",
+    "expected_source": "03_shipping_policy.md",
+    "id": "syn006"
+  },
+  {
+    "query": "What are the differences between the Acmera Shield and Acmera Shield Plus warranty options?",
+    "expected_answer": "The Acmera Shield extends coverage to 3 years and costs 8% of the product price, while the Acmera Shield Plus extends coverage to 4 years and includes accidental damage protection for 12% of the product price.",
+    "difficulty": "medium",
+    "category": "warranty",
+    "expected_source": "04_warranty_policy.md",
+    "id": "syn007"
+  },
+  {
+    "query": "If I experience a software defect after my purchase, how should I initiate a warranty claim?",
+    "expected_answer": "You should contact Acmera support with your order number and a description of the issue to initiate a warranty claim for a software defect.",
+    "difficulty": "medium",
+    "category": "warranty",
+    "expected_source": "04_warranty_policy.md",
+    "id": "syn008"
+  },
+  {
+    "query": "What happens if my payment fails while trying to place an order?",
+    "expected_answer": "If a payment fails, the order is not placed and no amount is deducted. If an amount is debited but the order is not confirmed, a refund is initiated automatically within 24 hours.",
+    "difficulty": "medium",
+    "category": "payments",
+    "expected_source": "05_payment_methods.md",
+    "id": "syn009"
+  },
+  {
+    "query": "Can I use my Acmera Wallet to make a purchase and how do I load money into it?",
+    "expected_answer": "Yes, you can use your Acmera Wallet for faster checkout. You can load money into your wallet via UPI, net banking, or card, with a minimum load amount of \u20b9100 and a maximum wallet balance of \u20b950,000.",
+    "difficulty": "medium",
+    "category": "payments",
+    "expected_source": "05_payment_methods.md",
+    "id": "syn010"
+  },
+  {
+    "query": "If I want to change my delivery address, how soon do I need to contact support after placing my order?",
+    "expected_answer": "You need to contact support immediately if the order has not yet been shipped, as address changes are only possible before the package is handed to the carrier.",
+    "difficulty": "medium",
+    "category": "support",
+    "expected_source": "06_support_faq.md",
+    "id": "syn011"
+  },
+  {
+    "query": "What should I do if I haven't received my refund for a returned item, and how can I track the return?",
+    "expected_answer": "First, check that your return has been received at our warehouse through the returns portal. If it shows as received and it's been more than 7 business days (or 3 days for Premium members), contact support with your return tracking number.",
+    "difficulty": "medium",
+    "category": "support",
+    "expected_source": "06_support_faq.md",
+    "id": "syn012"
+  },
+  {
+    "query": "What happens if I purchase an item during a flash sale and then decide to return it?",
+    "expected_answer": "Items purchased during a flash sale are subject to a reduced return window of 15 calendar days and a 10% restocking fee. Some items may be marked as 'Final Sale' and cannot be returned.",
+    "difficulty": "medium",
+    "category": "promotions",
+    "expected_source": "07_promotional_events.md",
+    "id": "syn013"
+  },
+  {
+    "query": "I returned my Acmera ProBook X15 laptop after 43 days. As a Premium Gold member, what should I expect regarding my refund?",
+    "expected_answer": "You can expect a refund processed to your HDFC credit card ending in 4829 within 2 business days, as Premium Gold members have a 60-day return window.",
+    "difficulty": "medium",
+    "category": "support",
+    "expected_source": "08_support_tickets.md",
+    "id": "syn014"
+  },
+  {
+    "query": "What are the warranty options for the Acmera ProBook X15, and how does it compare to the Acmera ProBook Air 14 in terms of battery life?",
+    "expected_answer": "The Acmera ProBook X15 has a standard warranty of 1 year, which can be extended to 4 years with Shield Plus, while the Acmera ProBook Air 14 has a standard warranty of 1 year. In terms of battery life, the ProBook X15 lasts up to 10 hours, whereas the ProBook Air 14 lasts up to 12 hours.",
+    "difficulty": "medium",
+    "category": "products",
+    "expected_source": "09_electronics_catalog.md",
+    "id": "syn015"
+  },
+  {
+    "query": "What steps do I need to take if I want to delete my Acmera account, and what happens to my data after deletion?",
+    "expected_answer": "To delete your Acmera account, you can request it through Account Settings or by contacting support. Account deletion is permanent and irreversible, resulting in the loss of all order history, wallet balance, and Premium membership status.",
+    "difficulty": "medium",
+    "category": "account",
+    "expected_source": "10_account_management.md",
+    "id": "syn016"
+  },
+  {
+    "query": "What discount can a support agent offer without needing to get approval from a manager?",
+    "expected_answer": "A support agent can offer up to a 10% discount without manager approval.",
+    "difficulty": "medium",
+    "category": "pricing",
+    "expected_source": "11_internal_pricing.md",
+    "id": "syn017"
+  },
+  {
+    "query": "What are the options for customizing products in bulk orders, and how does it affect the fulfillment time?",
+    "expected_answer": "Products can be customized with company logos or personalized messages for orders of 50+ units. Customization options include laser engraving on electronics, custom packaging, and personalized greeting cards. Customization adds 7-10 business days to fulfillment time.",
+    "difficulty": "medium",
+    "category": "corporate",
+    "expected_source": "12_corporate_gifting.md",
+    "id": "syn018"
+  },
+  {
+    "query": "Can I receive my refunds in my Acmera Wallet even if I didn't originally pay with it?",
+    "expected_answer": "Yes, Premium Gold members can choose to receive all refunds as wallet credit, regardless of the original payment method.",
+    "difficulty": "medium",
+    "category": "wallet",
+    "expected_source": "13_acmera_wallet.md",
+    "id": "syn019"
+  },
+  {
+    "query": "My ProBook is not turning on even after charging it for a while. What should I do next?",
+    "expected_answer": "Try performing a hard reset by holding the power button for 15 seconds, then release and press it again. If it still doesn't turn on, check if the charging LED is lit when connected to the charger. If not, try a different power outlet. If the issue persists, it may be a hardware defect, and you should contact support.",
+    "difficulty": "medium",
+    "category": "troubleshooting",
+    "expected_source": "14_probook_troubleshooting.md",
+    "id": "syn020"
+  },
+  {
+    "query": "I have a standard membership and I received a defective SoundPods Pro after 18 days. Can I still return it for a refund?",
+    "expected_answer": "Yes, if the product is defective, the return policy doesn't matter. You can process it as a defective item return and issue a refund as a goodwill gesture.",
+    "difficulty": "medium",
+    "category": "support",
+    "expected_source": "15_slack_support_chat.md",
+    "id": "syn021"
+  },
+  {
+    "query": "If I refer a friend who makes their first purchase of \u20b9800, will I still receive a referral reward?",
+    "expected_answer": "No, you will not receive a referral reward because the new customer must make their first purchase of \u20b91,000 or more for the referral to be valid.",
+    "difficulty": "medium",
+    "category": "referrals",
+    "expected_source": "16_referral_program.md",
+    "id": "syn022"
+  },
+  {
+    "query": "Can I use the Acmera AI Assistant to control my smart lights and also set reminders for my appointments?",
+    "expected_answer": "Yes, the Acmera AI Assistant can control compatible smart home devices like lights and can also set reminders, timers, and calendar events.",
+    "difficulty": "medium",
+    "category": "smart_home",
+    "expected_source": "17_smart_home_ecosystem.md",
+    "id": "syn023"
+  },
+  {
+    "query": "What benefits do I get if I trade in my old Acmera smartphone, and what happens to the devices that are traded in?",
+    "expected_answer": "You can receive up to \u20b910,000 credit for trading in your old Acmera smartphone. The traded-in devices are either refurbished and resold through the Acmera Renewed program or responsibly recycled if they are beyond repair.",
+    "difficulty": "medium",
+    "category": "sustainability",
+    "expected_source": "18_sustainability.md",
+    "id": "syn024"
+  },
+  {
+    "query": "What are the benefits of having a dedicated business account manager with Acmera, and how can I qualify for one?",
+    "expected_answer": "A dedicated business account manager is available for accounts that spend over \u20b910 lakh annually. Benefits include personalized support and assistance with orders and issues.",
+    "difficulty": "medium",
+    "category": "business",
+    "expected_source": "19_acmera_business.md",
+    "id": "syn025"
+  }
+]

@@ -1,0 +1,213 @@
+{
+  "total_generated": 12,
+  "kept": 12,
+  "rewrite": 0,
+  "dropped": 0,
+  "match_rate": 0.3333333333333333,
+  "critique_results": [
+    {
+      "question": {
+        "query": "What is the return policy for items purchased from Acmera?",
+        "expected_answer": "All products purchased from Acmera are eligible for return within 30 calendar days of the delivery date.",
+        "difficulty": "medium",
+        "category": "returns",
+        "quality_intent": "keep",
+        "id": "test001",
+        "expected_source": "01_return_policy.md"
+      },
+      "critique": {
+        "realism_score": 5,
+        "difficulty_score": 2,
+        "decision": "keep",
+        "reason": "The question is natural and straightforward, and the answer can be easily found in the document."
+      }
+    },
+    {
+      "question": {
+        "query": "How do I initiate a return for a product from Acmera?",
+        "expected_answer": "Customers must contact the support team or use the self-service return portal at returns.acmera.com, providing a valid order number and the email address associated with the account.",
+        "difficulty": "medium",
+        "category": "returns",
+        "quality_intent": "keep",
+        "id": "test002",
+        "expected_source": "01_return_policy.md"
+      },
+      "critique": {
+        "realism_score": 5,
+        "difficulty_score": 2,
+        "decision": "keep",
+        "reason": "The question is natural and conversational, and the answer is straightforward and accurately reflects the information in the document."
+      }
+    },
+    {
+      "question": {
+        "query": "What happens to my shipping costs if I return an item that's not defective?",
+        "expected_answer": "Shipping costs are non-refundable unless the return is due to a defect or error on our part.",
+        "difficulty": "medium",
+        "category": "returns",
+        "quality_intent": "keep",
+        "id": "test003",
+        "expected_source": "01_return_policy.md"
+      },
+      "critique": {
+        "realism_score": 5,
+        "difficulty_score": 2,
+        "decision": "keep",
+        "reason": "The question is natural and conversational, and the answer is straightforward and accurately reflects the information in the document."
+      }
+    },
+    {
+      "question": {
+        "query": "Are opened software and gift cards returnable?",
+        "expected_answer": "Opened software, digital downloads, and gift cards are not returnable under any circumstances.",
+        "difficulty": "medium",
+        "category": "returns",
+        "quality_intent": "keep",
+        "id": "test004",
+        "expected_source": "01_return_policy.md"
+      },
+      "critique": {
+        "realism_score": 5,
+        "difficulty_score": 2,
+        "decision": "keep",
+        "reason": "The question is natural and straightforward, and the answer is clearly stated in the document."
+      }
+    },
+    {
+      "question": {
+        "query": "What is the extended return policy for holiday purchases?",
+        "expected_answer": "Items purchased between November 15 and December 31 have an extended return window until January 31 of the following year.",
+        "difficulty": "medium",
+        "category": "returns",
+        "quality_intent": "rewrite",
+        "id": "test005",
+        "expected_source": "01_return_policy.md"
+      },
+      "critique": {
+        "realism_score": 5,
+        "difficulty_score": 2,
+        "decision": "keep",
+        "reason": "The question is natural and conversational, and it requires a straightforward lookup of specific information from the document."
+      }
+    },
+    {
+      "question": {
+        "query": "How long does it typically take for a refund to process after returning an item?",
+        "expected_answer": "Refunds are processed within 5-7 business days after the returned item is received and inspected.",
+        "difficulty": "medium",
+        "category": "returns",
+        "quality_intent": "rewrite",
+        "id": "test006",
+        "expected_source": "01_return_policy.md"
+      },
+      "critique": {
+        "realism_score": 5,
+        "difficulty_score": 2,
+        "decision": "keep",
+        "reason": "The question is natural and conversational, and the answer is straightforward and accurately found in the document."
+      }
+    },
+    {
+      "question": {
+        "query": "Is it possible to exchange an item rather than receive a refund?",
+        "expected_answer": "Customers can request an exchange during the return process, but it is subject to product availability.",
+        "difficulty": "medium",
+        "category": "returns",
+        "quality_intent": "rewrite",
+        "id": "test007",
+        "expected_source": "01_return_policy.md"
+      },
+      "critique": {
+        "realism_score": 5,
+        "difficulty_score": 3,
+        "decision": "keep",
+        "reason": "The question is realistic and accurately reflects a common customer inquiry regarding exchanges, and the answer is correct and straightforward."
+      }
+    },
+    {
+      "question": {
+        "query": "Can I get a refund for an item that has been opened?",
+        "expected_answer": "No, opened software and digital downloads are not returnable under any circumstances.",
+        "difficulty": "medium",
+        "category": "returns",
+        "quality_intent": "rewrite",
+        "id": "test008",
+        "expected_source": "01_return_policy.md"
+      },
+      "critique": {
+        "realism_score": 5,
+        "difficulty_score": 2,
+        "decision": "keep",
+        "reason": "The question is realistic and clearly articulated, and the answer is straightforward based on the document content."
+      }
+    },
+    {
+      "question": {
+        "query": "If I buy a pillow from Acmera today, do I have a year to return it?",
+        "expected_answer": "No, you only have 30 calendar days from the delivery date to return it.",
+        "difficulty": "medium",
+        "category": "returns",
+        "quality_intent": "drop",
+        "id": "test009",
+        "expected_source": "01_return_policy.md"
+      },
+      "critique": {
+        "realism_score": 5,
+        "difficulty_score": 3,
+        "decision": "keep",
+        "reason": "The question is realistic and conversational, and while it requires specific information from the document, it is not overly complex."
+      }
+    },
+    {
+      "question": {
+        "query": "What is the procedure for getting a refund after returning a broken product?",
+        "expected_answer": "Customers must contact support to report the issue and return the product. Refunds for defective items are processed accordingly.",
+        "difficulty": "medium",
+        "category": "returns",
+        "quality_intent": "drop",
+        "id": "test010",
+        "expected_source": "01_return_policy.md"
+      },
+      "critique": {
+        "realism_score": 4,
+        "difficulty_score": 3,
+        "decision": "keep",
+        "reason": "The question is natural and relevant to the return policy, and while it requires specific information, it is straightforward for the RAG system to answer."
+      }
+    },
+    {
+      "question": {
+        "query": "Explain the return procedure in detail.",
+        "expected_answer": "Customers must contact support to initiate a return process, providing the valid order number and associated email.",
+        "difficulty": "medium",
+        "category": "returns",
+        "quality_intent": "drop",
+        "id": "test011",
+        "expected_source": "01_return_policy.md"
+      },
+      "critique": {
+        "realism_score": 5,
+        "difficulty_score": 3,
+        "decision": "keep",
+        "reason": "The question is realistic and conversational, and while the answer requires specific information, it is straightforward to find in the document."
+      }
+    },
+    {
+      "question": {
+        "query": "Could I send an item back without packaging?",
+        "expected_answer": "No, items must be in their original packaging and in unused condition to be eligible for return.",
+        "difficulty": "medium",
+        "category": "returns",
+        "quality_intent": "drop",
+        "id": "test012",
+        "expected_source": "01_return_policy.md"
+      },
+      "critique": {
+        "realism_score": 5,
+        "difficulty_score": 2,
+        "decision": "keep",
+        "reason": "The question is realistic and conversational, and the answer is straightforward and accurate based on the document."
+      }
+    }
+  ]
+}

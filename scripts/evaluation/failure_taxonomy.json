@@ -1,0 +1,580 @@
+{
+  "metadata": {
+    "created_date": "2026-03-29",
+    "evaluation_scope": "75 test cases across 17 categories",
+    "overall_hit_rate": "100.0%",
+    "overall_correctness": "4.47/5.0",
+    "overall_faithfulness": "4.95/5.0",
+    "purpose": "Systematic categorization of RAG system failures to guide improvements"
+  },
+  "failure_categories": {
+    "retrieval_failures": {
+      "description": "Cases where the correct document chunks are not retrieved",
+      "severity": "critical",
+      "count": 0,
+      "percentage": "0%",
+      "examples": [],
+      "impact": "No retrieval failures detected - all 75 test cases achieved hit=True",
+      "root_causes": [],
+      "mitigation_strategies": [
+        "Continue monitoring retrieval performance",
+        "Maintain current embedding model (text-embedding-3-small)",
+        "Keep TOP_K=5 configuration"
+      ]
+    },
+    "ranking_failures": {
+      "description": "Correct chunks retrieved but not ranked high enough (low MRR)",
+      "severity": "medium",
+      "count": 6,
+      "percentage": "8%",
+      "affected_categories": [
+        "returns",
+        "payments", 
+        "promotions",
+        "referrals",
+        "sustainability",
+        "wallet"
+      ],
+      "examples": [
+        {
+          "test_id": "q01",
+          "category": "returns",
+          "query": "What is the standard return window for products?",
+          "mrr": 0.250,
+          "issue": "Correct chunk ranked 4th instead of 1st",
+          "impact": "User may need to read through irrelevant context"
+        },
+        {
+          "test_id": "q19",
+          "category": "payments",
+          "mrr": 0.500,
+          "issue": "Correct chunk ranked 2nd"
+        },
+        {
+          "test_id": "q22",
+          "category": "promotions",
+          "mrr": 0.500,
+          "issue": "Correct chunk ranked 2nd"
+        },
+        {
+          "test_id": "q25",
+          "category": "referrals",
+          "mrr": 0.500,
+          "issue": "Correct chunk ranked 2nd"
+        },
+        {
+          "test_id": "q46",
+          "category": "sustainability",
+          "mrr": 0.333,
+          "issue": "Correct chunk ranked 3rd"
+        },
+        {
+          "test_id": "syn010",
+          "category": "wallet",
+          "mrr": 0.333,
+          "issue": "Correct chunk ranked 3rd"
+        }
+      ],
+      "root_causes": [
+        "Semantic similarity may not capture exact keyword matches",
+        "Chunk boundaries may split related information",
+        "Multiple similar chunks competing for top positions"
+      ],
+      "mitigation_strategies": [
+        "Implement hybrid search (semantic + keyword BM25)",
+        "Add query expansion or reformulation",
+        "Tune chunk size and overlap parameters",
+        "Consider re-ranking with cross-encoder model"
+      ]
+    },
+    "incomplete_answers": {
+      "description": "Answers lack completeness or miss important details (correctness < 5)",
+      "severity": "high",
+      "count": 42,
+      "percentage": "56%",
+      "subcategories": {
+        "minor_omissions": {
+          "description": "Correctness score 4/5 - mostly correct but missing minor details",
+          "count": 29,
+          "percentage": "39%",
+          "affected_categories": [
+            "returns",
+            "shipping",
+            "payments",
+            "membership",
+            "account",
+            "business",
+            "warranty",
+            "promotions",
+            "support",
+            "troubleshooting",
+            "sustainability",
+            "smart_home",
+            "corporate",
+            "wallet",
+            "referrals"
+          ]
+        },
+        "significant_gaps": {
+          "description": "Correctness score 3/5 - substantial information missing",
+          "count": 5,
+          "percentage": "7%",
+          "examples": [
+            {
+              "test_id": "q05",
+              "category": "returns",
+              "query": "What items cannot be returned?",
+              "correctness": "3/5",
+              "issue": "May miss some non-returnable item categories or conditions"
+            },
+            {
+              "test_id": "q24",
+              "category": "wallet",
+              "query": "How long do promotional wallet credits last?",
+              "correctness": "3/5",
+              "issue": "Partial information about expiration policies"
+            },
+            {
+              "test_id": "q25",
+              "category": "referrals",
+              "query": "What discount does the referee get on their first order?",
+              "correctness": "3/5",
+              "issue": "Incomplete details about referee benefits"
+            },
+            {
+              "test_id": "syn005",
+              "category": "shipping",
+              "query": "What are the shipping options available for orders under ₹999?",
+              "correctness": "3/5",
+              "issue": "Missing comprehensive shipping tier information"
+            },
+            {
+              "test_id": "syn015",
+              "category": "products",
+              "query": "What are the warranty options for the Acmera ProBook X15?",
+              "correctness": "3/5",
+              "issue": "Incomplete warranty option details"
+            },
+            {
+              "test_id": "syn021",
+              "category": "support",
+              "query": "Standard membership defective product handling",
+              "correctness": "3/5",
+              "issue": "Missing membership-specific support policies"
+            }
+          ],
+          "worst_affected_categories": [
+            "shipping (3.7/5 average)",
+            "returns (4.0/5 average)",
+            "products (4.0/5 average)"
+          ]
+        }
+      },
+      "root_causes": [
+        "Retrieved chunks don't contain complete information",
+        "Information scattered across multiple chunks not all retrieved",
+        "Chunk boundaries cut through cohesive policy sections",
+        "LLM fails to synthesize information from multiple chunks",
+        "Missing context about edge cases and exceptions"
+      ],
+      "mitigation_strategies": [
+        "Increase TOP_K to retrieve more context (e.g., 7-10)",
+        "Implement parent-child chunking to preserve context",
+        "Add metadata to chunks (category, policy type, etc.)",
+        "Improve prompt to encourage comprehensive answers",
+        "Add specific instructions for handling multi-chunk synthesis"
+      ]
+    },
+    "low_faithfulness": {
+      "description": "Answers contain hallucinated or unsupported information (faithfulness < 5)",
+      "severity": "high",
+      "count": 4,
+      "percentage": "5%",
+      "examples": [
+        {
+          "test_id": "syn015",
+          "category": "products",
+          "faithfulness": "4/5",
+          "issue": "Minor unsupported details about warranty options"
+        },
+        {
+          "test_id": "syn019",
+          "category": "wallet",
+          "faithfulness": "4/5",
+          "issue": "Minor extrapolation beyond retrieved context"
+        },
+        {
+          "test_id": "syn021",
+          "category": "support",
+          "faithfulness": "4/5",
+          "issue": "Slight inference beyond provided information"
+        },
+        {
+          "test_id": "syn025",
+          "category": "business",
+          "faithfulness": "4/5",
+          "issue": "Minor assumptions about business account benefits"
+        }
+      ],
+      "root_causes": [
+        "LLM making reasonable but unsupported inferences",
+        "Model filling in gaps with general knowledge",
+        "Ambiguous chunk content leading to extrapolation"
+      ],
+      "mitigation_strategies": [
+        "Strengthen system prompt to emphasize strict grounding",
+        "Add explicit instruction: 'Only use information from context'",
+        "Implement citation requirements in responses",
+        "Add confidence indicators when information is partial",
+        "Consider RAG guardrails to detect hallucinations"
+      ]
+    },
+    "category_specific_failures": {
+      "description": "Failures concentrated in specific knowledge domains",
+      "severity": "medium",
+      "breakdown": [
+        {
+          "category": "shipping",
+          "avg_correctness": 3.7,
+          "failure_rate": "high",
+          "issues": [
+            "Incomplete shipping tier information",
+            "Missing cost details",
+            "Unclear international shipping policies",
+            "Timing and cutoff information gaps"
+          ],
+          "root_causes": [
+            "Shipping policy scattered across multiple documents",
+            "Complex conditional logic (price tiers, regions, membership)",
+            "Frequent policy updates not reflected in chunks"
+          ],
+          "recommended_actions": [
+            "Create consolidated shipping policy document",
+            "Add structured metadata for shipping tiers",
+            "Implement table/structured data extraction",
+            "Increase chunk overlap for shipping sections"
+          ]
+        },
+        {
+          "category": "returns",
+          "avg_correctness": 4.0,
+          "failure_rate": "medium-high",
+          "issues": [
+            "Missing edge cases and exceptions",
+            "Incomplete non-returnable item lists",
+            "Promotional return policy conditions unclear",
+            "Membership-specific benefits not emphasized"
+          ],
+          "root_causes": [
+            "Return policy has many conditional rules",
+            "Exceptions scattered throughout document",
+            "Cross-references to other policies (promotions, membership)"
+          ],
+          "recommended_actions": [
+            "Better chunking for exception clauses",
+            "Add 'return_conditions' metadata",
+            "Cross-link related policy chunks",
+            "Create FAQ-style chunks for common scenarios"
+          ]
+        },
+        {
+          "category": "products",
+          "avg_correctness": 4.0,
+          "failure_rate": "medium-high",
+          "issues": [
+            "Incomplete product specifications",
+            "Missing warranty details for specific products",
+            "Pricing and promotion integration unclear"
+          ],
+          "root_causes": [
+            "Product catalog structure not optimal for RAG",
+            "Technical specs may need specialized chunking",
+            "Product-specific policies buried in general documents"
+          ],
+          "recommended_actions": [
+            "Implement product-specific knowledge graphs",
+            "Add structured product metadata",
+            "Create dedicated product FAQ chunks",
+            "Consider separate embedding for product specs"
+          ]
+        },
+        {
+          "category": "business",
+          "avg_correctness": 4.2,
+          "failure_rate": "medium",
+          "issues": [
+            "Business-specific features not fully detailed",
+            "Account manager benefits unclear"
+          ],
+          "root_causes": [
+            "Business documentation less comprehensive",
+            "Fewer test cases to identify patterns"
+          ],
+          "recommended_actions": [
+            "Expand business documentation",
+            "Add more business-focused test cases"
+          ]
+        }
+      ]
+    },
+    "cross_cutting_issues": {
+      "description": "Systemic issues affecting multiple categories",
+      "issues": [
+        {
+          "name": "membership_tier_confusion",
+          "description": "Difficulty distinguishing between Standard, Silver, and Gold membership benefits",
+          "affected_categories": ["membership", "returns", "shipping", "support"],
+          "mitigation": "Add membership tier as chunk metadata, implement tier-aware retrieval"
+        },
+        {
+          "name": "policy_exceptions",
+          "description": "Edge cases and exceptions often missed or incomplete",
+          "affected_categories": ["returns", "warranty", "promotions", "payments"],
+          "mitigation": "Create dedicated exception chunks, use 'exception' metadata tags"
+        },
+        {
+          "name": "numerical_precision",
+          "description": "Specific numbers (prices, thresholds, limits) sometimes imprecise",
+          "affected_categories": ["payments", "wallet", "referrals", "corporate"],
+          "mitigation": "Extract and store numerical values as structured metadata"
+        },
+        {
+          "name": "multi_document_synthesis",
+          "description": "Answers requiring information from multiple documents less complete",
+          "affected_categories": ["all"],
+          "mitigation": "Implement graph-based RAG to connect related chunks, increase context window"
+        }
+      ]
+    }
+  },
+  "lowest_scoring_queries_analysis": {
+    "description": "Detailed analysis of the 5 lowest scoring queries (all scored 3/5 on correctness)",
+    "failure_type_definitions": {
+      "retrieval_miss": "Hit rate = 0, correct document not retrieved at all",
+      "wrong_ranking": "Hit rate = 1, correct document retrieved but at position 4 or 5 (low MRR)",
+      "hallucination": "High hit rate, low faithfulness - making up information",
+      "wrong_interpretation": "High faithfulness, low correctness - retrieved correct info but misunderstood/incomplete"
+    },
+    "queries": [
+      {
+        "rank": 1,
+        "test_id": "q05",
+        "category": "returns",
+        "query": "What items cannot be returned?",
+        "expected_answer": "Opened software, digital downloads, gift cards, perishable goods, and personalized items cannot be returned",
+        "expected_source": "01_return_policy.md",
+        "scores": {
+          "hit": true,
+          "mrr": 1.0,
+          "faithfulness": "5/5",
+          "correctness": "3/5"
+        },
+        "failure_type": "wrong_interpretation",
+        "failure_analysis": {
+          "primary_issue": "Incomplete enumeration of non-returnable items",
+          "what_went_wrong": "Retrieved the correct document (MRR=1.0) with perfect faithfulness, but the generated answer likely missed one or more categories of non-returnable items from the comprehensive list (software, digital downloads, gift cards, perishables, personalized items)",
+          "retrieval_quality": "excellent",
+          "faithfulness_quality": "excellent - no hallucination",
+          "interpretation_quality": "poor - incomplete list compilation",
+          "root_cause": "List items may be scattered across multiple chunks or the LLM failed to synthesize all enumerated items from the context",
+          "mitigation": "Ensure complete lists are kept in single chunks, add explicit prompt instruction to enumerate all items when listing policy exceptions"
+        }
+      },
+      {
+        "rank": 2,
+        "test_id": "q24",
+        "category": "wallet",
+        "query": "How long do promotional wallet credits last?",
+        "expected_answer": "Promotional wallet credits have a 90-day expiry from the date of issue and are applied before regular wallet balance during checkout",
+        "expected_source": "13_acmera_wallet.md",
+        "scores": {
+          "hit": true,
+          "mrr": 1.0,
+          "faithfulness": "5/5",
+          "correctness": "3/5"
+        },
+        "failure_type": "wrong_interpretation",
+        "failure_analysis": {
+          "primary_issue": "Missing details about promotional credit behavior",
+          "what_went_wrong": "Retrieved correct document with perfect ranking (MRR=1.0) and no hallucination (Faith=5/5), but answer likely stated the 90-day expiry without mentioning the important detail that promotional credits are applied before regular balance",
+          "retrieval_quality": "excellent",
+          "faithfulness_quality": "excellent - no hallucination",
+          "interpretation_quality": "poor - partial answer, missing application order detail",
+          "root_cause": "Multi-part question requiring synthesis of two related facts (expiry duration AND usage priority), LLM may have focused only on the direct question about duration",
+          "mitigation": "Improve prompt to encourage complete multi-faceted answers, ensure related policy details are co-located in same chunk"
+        }
+      },
+      {
+        "rank": 3,
+        "test_id": "q25",
+        "category": "referrals",
+        "query": "What discount does the referee get on their first order?",
+        "expected_answer": "The referee (new customer) receives ₹300 off their first order when they sign up using a referral code and make a purchase of ₹1,000 or more",
+        "expected_source": "16_referral_program.md",
+        "scores": {
+          "hit": true,
+          "mrr": 0.5,
+          "faithfulness": "5/5",
+          "correctness": "3/5"
+        },
+        "failure_type": "wrong_ranking + wrong_interpretation",
+        "failure_analysis": {
+          "primary_issue": "Suboptimal ranking combined with incomplete conditional details",
+          "what_went_wrong": "Correct document retrieved but ranked 2nd (MRR=0.5), and answer likely mentioned ₹300 discount but missed the critical qualifying condition of ₹1,000 minimum purchase requirement",
+          "retrieval_quality": "good but not perfect - correct chunk at position 2",
+          "faithfulness_quality": "excellent - no hallucination",
+          "interpretation_quality": "poor - missed conditional requirement",
+          "root_cause": "Ranking issue meant less relevant context at top position, and the conditional 'if purchase ≥ ₹1,000' clause may have been in a different chunk or overlooked during synthesis",
+          "mitigation": "Implement hybrid search to better rank conditional policy statements, ensure discount amounts and their conditions are in same chunk, add prompt instruction to always include qualifying conditions with promotional offers"
+        }
+      },
+      {
+        "rank": 4,
+        "test_id": "syn005",
+        "category": "shipping",
+        "query": "What are the shipping options available for orders under ₹999, and how long does each take?",
+        "expected_answer": "For orders under ₹999: Standard Shipping (5-7 business days, ₹99) and Express Shipping (2-3 business days, ₹199)",
+        "expected_source": "03_shipping_policy.md",
+        "scores": {
+          "hit": true,
+          "mrr": 1.0,
+          "faithfulness": "5/5",
+          "correctness": "3/5"
+        },
+        "failure_type": "wrong_interpretation",
+        "failure_analysis": {
+          "primary_issue": "Incomplete structured information (likely missing costs or durations)",
+          "what_went_wrong": "Perfect retrieval (MRR=1.0) and no hallucination (Faith=5/5), but answer likely provided shipping methods and durations without including the costs (₹99 for Standard, ₹199 for Express), or vice versa",
+          "retrieval_quality": "excellent",
+          "faithfulness_quality": "excellent - no hallucination",
+          "interpretation_quality": "poor - incomplete tabular/structured data extraction",
+          "root_cause": "Shipping policy has structured data (method, duration, cost) that may be formatted as a table or scattered across paragraphs. LLM may have extracted partial attributes for each option",
+          "mitigation": "Improve chunking to keep complete shipping tier rows together (method + duration + cost), add table extraction logic, enhance prompt to explicitly request all attributes (options, timing, costs) for shipping queries"
+        }
+      },
+      {
+        "rank": 5,
+        "test_id": "syn015",
+        "category": "products",
+        "query": "What are the warranty options for the Acmera ProBook X15, and how does it compare to the Acmera ProBook Air 14 in terms of battery life?",
+        "expected_answer": "ProBook X15: 1 year standard warranty, extendable to 4 years with Shield Plus. ProBook Air 14: 1 year standard warranty. Battery life comparison details...",
+        "expected_source": "09_electronics_catalog.md",
+        "scores": {
+          "hit": true,
+          "mrr": 1.0,
+          "faithfulness": "4/5",
+          "correctness": "3/5"
+        },
+        "failure_type": "hallucination + wrong_interpretation",
+        "failure_analysis": {
+          "primary_issue": "Multi-product comparison with minor hallucination and incompleteness",
+          "what_went_wrong": "Retrieved correct document (MRR=1.0) but faithfulness dropped to 4/5 indicating minor unsupported details, and correctness at 3/5 suggests incomplete comparison. Likely mentioned warranties but added unsupported details and/or failed to provide complete battery life comparison",
+          "retrieval_quality": "excellent",
+          "faithfulness_quality": "good - minor hallucination detected",
+          "interpretation_quality": "poor - two-part question only partially answered",
+          "root_cause": "Complex multi-part query requiring information about two different products (warranty options + battery comparison). Product specs may be in separate chunks. LLM attempted to fill gaps with reasonable but unsupported inferences",
+          "mitigation": "Improve product catalog chunking to co-locate comparable specs, increase TOP_K for multi-product queries, add explicit grounding instructions to avoid speculation when comparing products, consider structured product metadata/knowledge graph"
+        }
+      },
+      {
+        "rank": 6,
+        "test_id": "syn021",
+        "category": "support",
+        "query": "I have a standard membership and I received a defective SoundPods Pro after 18 days. Can I still return it for a refund?",
+        "expected_answer": "Yes, if the product is defective, the return policy doesn't matter. You can process it as a defective item return and issue a refund as a goodwill gesture",
+        "expected_source": "15_slack_support_chat.md",
+        "scores": {
+          "hit": true,
+          "mrr": 1.0,
+          "faithfulness": "4/5",
+          "correctness": "3/5"
+        },
+        "failure_type": "hallucination + wrong_interpretation",
+        "failure_analysis": {
+          "primary_issue": "Defective item exception policy with minor hallucination",
+          "what_went_wrong": "Perfect retrieval (MRR=1.0) but faithfulness at 4/5 shows minor hallucination, correctness at 3/5 indicates incomplete exception handling logic. Answer likely stated the return is possible but either made unsupported assumptions about the process or failed to clearly explain that defective items override standard return windows",
+          "retrieval_quality": "excellent",
+          "faithfulness_quality": "good - minor unsupported inference",
+          "interpretation_quality": "poor - exception policy logic not fully explained",
+          "root_cause": "Support chat logs (15_slack_support_chat.md) contain informal exception handling guidance. The LLM may have tried to formalize the informal guidance and added its own interpretation of 'goodwill gesture' process",
+          "mitigation": "Formalize support exception policies in structured format, add metadata tags for 'exception_rules', strengthen prompt to distinguish standard policies vs. exceptions, ensure defective item handling is clearly documented"
+        }
+      }
+    ],
+    "failure_type_distribution": {
+      "retrieval_miss": 0,
+      "wrong_ranking": 1,
+      "hallucination": 2,
+      "wrong_interpretation": 6,
+      "combined_failures": 3
+    },
+    "key_insights": [
+      "ZERO retrieval misses - all 5 worst queries successfully retrieved correct documents",
+      "Primary failure mode: WRONG INTERPRETATION (6/6 cases) - system finds right info but generates incomplete answers",
+      "Secondary failure: HALLUCINATION (2/6 cases) - minor unsupported details added when trying to complete partial information",
+      "Ranking issue minimal (1/6 cases) - not the main problem",
+      "Pattern: Multi-part questions, lists, conditional policies, and product comparisons are most problematic",
+      "Faithfulness remains high even in failures (4-5/5) - system rarely makes things up",
+      "Root cause: Incomplete information extraction and synthesis, not retrieval failure"
+    ]
+  },
+  "summary": {
+    "total_test_cases": 75,
+    "perfect_scores": 33,
+    "near_perfect_4_5": 29,
+    "significant_issues_3_5": 5,
+    "failures_below_3": 0,
+    "retrieval_success_rate": "100%",
+    "generation_needs_improvement": "56% of cases scored below 5/5 on correctness",
+    "primary_failure_mode": "Wrong Interpretation (incomplete answers) rather than retrieval failures or hallucinations",
+    "key_insight": "The RAG system excels at retrieval (100% hit rate) and maintaining faithfulness (4.95/5), but struggles with answer completeness, especially for complex multi-conditional policies, lists, and multi-part questions"
+  },
+  "priority_improvements": [
+    {
+      "priority": 1,
+      "focus": "Shipping category optimization",
+      "justification": "Lowest performing category (3.7/5)",
+      "actions": [
+        "Restructure shipping policy document",
+        "Add shipping tier metadata",
+        "Increase TOP_K for shipping queries",
+        "Create comprehensive shipping FAQ chunks"
+      ],
+      "expected_impact": "Increase shipping correctness from 3.7 to 4.5+"
+    },
+    {
+      "priority": 2,
+      "focus": "Improve answer completeness",
+      "justification": "56% of answers missing details",
+      "actions": [
+        "Increase TOP_K from 5 to 7-10",
+        "Implement parent-child chunking",
+        "Enhance prompt with completeness requirements",
+        "Add metadata for policy sections"
+      ],
+      "expected_impact": "Reduce incomplete answers from 56% to <30%"
+    },
+    {
+      "priority": 3,
+      "focus": "Better ranking for multi-conditional queries",
+      "justification": "8% of queries have suboptimal ranking (low MRR)",
+      "actions": [
+        "Implement hybrid search (semantic + BM25)",
+        "Add query expansion",
+        "Consider cross-encoder re-ranking"
+      ],
+      "expected_impact": "Increase average MRR from 0.939 to 0.98+"
+    },
+    {
+      "priority": 4,
+      "focus": "Reduce hallucinations",
+      "justification": "5% of answers have faithfulness < 5",
+      "actions": [
+        "Strengthen grounding instructions in prompt",
+        "Add citation requirements",
+        "Implement hallucination detection"
+      ],
+      "expected_impact": "Increase faithfulness from 4.95 to 5.0"
+    }
+  ]
+}

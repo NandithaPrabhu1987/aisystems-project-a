@@ -1,0 +1,56 @@
+[
+  {
+    "query": "I bought a bunch of items during your Diwali Dhamaka sale, but now I see that some are marked as 'Final Sale' and can't be returned! How was I supposed to know that?! What if I find out they\u2019re defective, am I just stuck with them?",
+    "expected_answer": "Some clearance items may be marked as 'Final Sale' and are not eligible for return or exchange. These items are clearly labeled at the time of purchase. Unfortunately, if a 'Final Sale' item is defective, it cannot be returned.",
+    "difficulty": "medium",
+    "category": "promotions",
+    "persona": "frustrated",
+    "expected_source": "07_promotional_events.md",
+    "id": "fru001"
+  },
+  {
+    "query": "I missed the deadline to return my promotional purchase because of a delay in shipping! I thought Premium members had more flexibility. Why can't I just get my money back without a restocking fee?",
+    "expected_answer": "Premium members are exempt from the reduced return window and restocking fee, but the standard return window applies to promotional purchases. However, returns must still be made within the specified time frame, which is 15 calendar days from delivery for promotional items.",
+    "difficulty": "medium",
+    "category": "promotions",
+    "persona": "frustrated",
+    "expected_source": "07_promotional_events.md",
+    "id": "fru002"
+  },
+  {
+    "query": "I saw a flash sale item go out of stock right after I added it to my cart, but I thought I could buy it later. Why doesn\u2019t Acmera hold items in my cart during promotional events? This is so frustrating!",
+    "expected_answer": "Promotional items are available while supplies last, and Acmera reserves the right to limit quantities per customer. Items in your cart are not guaranteed to be held during promotional events, so they may go out of stock before you complete your purchase.",
+    "difficulty": "medium",
+    "category": "promotions",
+    "persona": "frustrated",
+    "expected_source": "07_promotional_events.md",
+    "id": "fru003"
+  },
+  {
+    "query": "I've spent over \u20b925,000 and thought I was a Premium Silver member, but why can't I seem to get free shipping on my recent orders? It feels like I'm being cheated!",
+    "expected_answer": "Premium Silver members receive free standard shipping on all orders over \u20b9500. If your recent orders were under \u20b9500, that would explain the lack of free shipping.",
+    "difficulty": "medium",
+    "category": "membership",
+    "persona": "frustrated",
+    "expected_source": "02_premium_membership.md",
+    "id": "fru004"
+  },
+  {
+    "query": "I was told I could return items for 45 days as a Premium Silver member, but I bought something during a huge sale, and now I'm hearing conflicting information about the return window! Can you please clarify what the actual return policy is?",
+    "expected_answer": "As a Premium Silver member, you have a 45-day return window on all purchases, which is an extension from the standard 30-day policy, even on items purchased during sales.",
+    "difficulty": "medium",
+    "category": "membership",
+    "persona": "frustrated",
+    "expected_source": "02_premium_membership.md",
+    "id": "fru005"
+  },
+  {
+    "query": "Why is it that I have to wait so long for customer support? I'm a Premium Gold member and expected better service! Is there even a way to escalate my issue faster than this?",
+    "expected_answer": "Premium Gold members have access to a direct phone line staffed 24/7 with senior support agents, and you can also escalate any support ticket directly to a team lead for faster resolution.",
+    "difficulty": "medium",
+    "category": "membership",
+    "persona": "frustrated",
+    "expected_source": "02_premium_membership.md",
+    "id": "fru006"
+  }
+]

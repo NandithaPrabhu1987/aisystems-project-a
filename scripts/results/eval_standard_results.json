@@ -1,0 +1,428 @@
+[
+  {
+    "id": "sta001",
+    "query": "What types of promotional events does Acmera offer throughout the year?",
+    "expected_answer": "Acmera runs several types of promotional events including Seasonal Sales, Flash Sales, Clearance Events, and Premium-Exclusive Sales.",
+    "generated_answer": {
+      "query": "What types of promotional events does Acmera offer throughout the year?",
+      "answer": "Acmera offers several types of promotional events throughout the year, including:\n\n1. **Seasonal Sales**: Major sale events tied to festivals and holidays, such as:\n   - Diwali Dhamaka (October/November)\n   - Republic Day Sale (January)\n   - Independence Day Sale (August)\n   - Year-End Clearance (December)\n   These sales typically run for 5-7 days.\n\n2. **Flash Sales**: Short-duration sales lasting 6-24 hours, featuring a limited number of products at significant discounts.",
+      "retrieved_chunks": [
+        {
+          "id": 37,
+          "doc_name": "07_promotional_events.md",
+          "chunk_index": 0,
+          "content": "# Acmera Promotional Events Policy\n\n## Types of Promotional Events\n\nAcmera runs several types of promotional events throughout the year:\n\n**Seasonal Sales**: Major sale events tied to festivals and holidays \u2014 Diwali Dhamaka (October/November), Republic Day Sale (January), Independence Day Sale (August), and Year-End Clearance (December). These typically run for 5-7 days.\n\n**Flash Sales**: Short-duration sales lasting 6-24 hours, typically featuring a limited number of products at significant dis",
+          "metadata": {
+            "doc_name": "07_promotional_events.md",
+            "chunk_index": 0
+          },
+          "similarity": 0.7579
+        },
+        {
+          "id": 65,
+          "doc_name": "12_corporate_gifting.md",
+          "chunk_index": 0,
+          "content": "# Acmera Corporate Gifting Program\n\n## Overview\n\nAcmera's Corporate Gifting program enables businesses to purchase products in bulk for employee rewards, client gifts, and event giveaways. The program is available to registered businesses with a valid GST number.\n\n## Bulk Pricing\n\nOrders of 10+ units qualify for bulk pricing:\n- 10-49 units: 10% discount off retail price\n- 50-99 units: 15% discount off retail price\n- 100+ units: 20% discount off retail price, plus free express shipping\n\nCustom qu",
+          "metadata": {
+            "doc_name": "12_corporate_gifting.md",
+            "chunk_index": 0
+          },
+          "similarity": 0.5682
+        },
+        {
+          "id": 85,
+          "doc_name": "16_referral_program.md",
+          "chunk_index": 0,
+          "content": "# Acmera Referral Program\n\n## How It Works\n\nExisting Acmera customers can refer friends and earn rewards. Each customer receives a unique referral code available in their Account Settings.\n\nWhen a new customer signs up using your referral code and makes their first purchase of \u20b91,000 or more:\n- **You (referrer)** receive \u20b9500 Acmera Wallet credit\n- **They (referee)** receive \u20b9300 off their first order\n\n## Referral Limits\n\nCustomers can refer up to 20 people per calendar year. There is no limit o",
+          "metadata": {
+            "doc_name": "16_referral_program.md",
+            "chunk_index": 0
+          },
+          "similarity": 0.5249
+        },
+        {
+          "id": 97,
+          "doc_name": "19_acmera_business.md",
+          "chunk_index": 0,
+          "content": "# Acmera for Business\n\n## Overview\n\nAcmera for Business provides technology solutions for companies of all sizes. From equipping remote teams with laptops to outfitting offices with smart devices, we offer competitive pricing, dedicated support, and simplified procurement.\n\n## Business Account Benefits\n\n- GST-compliant invoicing on all orders\n- Net-30 payment terms (subject to credit approval)\n- Dedicated business account manager for accounts over \u20b910 lakh annually\n- Volume pricing (see Corporat",
+          "metadata": {
+            "doc_name": "19_acmera_business.md",
+            "chunk_index": 0
+          },
+          "similarity": 0.5224
+        },
+        {
+          "id": 20,
+          "doc_name": "04_warranty_policy.md",
+          "chunk_index": 0,
+          "content": "# Acmera Product Warranty Policy\n\n## Standard Warranty Coverage\n\nAll electronics sold by Acmera come with a minimum 1-year manufacturer warranty from the date of purchase. This warranty covers defects in materials and workmanship under normal use conditions.\n\nWarranty claims must be initiated through Acmera's support team, not directly with the manufacturer. This ensures consistent service and faster resolution.\n\n## Extended Warranty Options\n\nCustomers can purchase extended warranty plans at the",
+          "metadata": {
+            "doc_name": "04_warranty_policy.md",
+            "chunk_index": 0
+          },
+          "similarity": 0.5159
+        }
+      ],
+      "context": "[Source: 07_promotional_events.md, Chunk 0]\n# Acmera Promotional Events Policy\n\n## Types of Promotional Events\n\nAcmera runs several types of promotional events throughout the year:\n\n**Seasonal Sales**: Major sale events tied to festivals and holidays \u2014 Diwali Dhamaka (October/November), Republic Day Sale (January), Independence Day Sale (August), and Year-End Clearance (December). These typically run for 5-7 days.\n\n**Flash Sales**: Short-duration sales lasting 6-24 hours, typically featuring a limited number of products at significant dis\n\n---\n\n[Source: 12_corporate_gifting.md, Chunk 0]\n# Acmera Corporate Gifting Program\n\n## Overview\n\nAcmera's Corporate Gifting program enables businesses to purchase products in bulk for employee rewards, client gifts, and event giveaways. The program is available to registered businesses with a valid GST number.\n\n## Bulk Pricing\n\nOrders of 10+ units qualify for bulk pricing:\n- 10-49 units: 10% discount off retail price\n- 50-99 units: 15% discount off retail price\n- 100+ units: 20% discount off retail price, plus free express shipping\n\nCustom qu\n\n---\n\n[Source: 16_referral_program.md, Chunk 0]\n# Acmera Referral Program\n\n## How It Works\n\nExisting Acmera customers can refer friends and earn rewards. Each customer receives a unique referral code available in their Account Settings.\n\nWhen a new customer signs up using your referral code and makes their first purchase of \u20b91,000 or more:\n- **You (referrer)** receive \u20b9500 Acmera Wallet credit\n- **They (referee)** receive \u20b9300 off their first order\n\n## Referral Limits\n\nCustomers can refer up to 20 people per calendar year. There is no limit o\n\n---\n\n[Source: 19_acmera_business.md, Chunk 0]\n# Acmera for Business\n\n## Overview\n\nAcmera for Business provides technology solutions for companies of all sizes. From equipping remote teams with laptops to outfitting offices with smart devices, we offer competitive pricing, dedicated support, and simplified procurement.\n\n## Business Account Benefits\n\n- GST-compliant invoicing on all orders\n- Net-30 payment terms (subject to credit approval)\n- Dedicated business account manager for accounts over \u20b910 lakh annually\n- Volume pricing (see Corporat\n\n---\n\n[Source: 04_warranty_policy.md, Chunk 0]\n# Acmera Product Warranty Policy\n\n## Standard Warranty Coverage\n\nAll electronics sold by Acmera come with a minimum 1-year manufacturer warranty from the date of purchase. This warranty covers defects in materials and workmanship under normal use conditions.\n\nWarranty claims must be initiated through Acmera's support team, not directly with the manufacturer. This ensures consistent service and faster resolution.\n\n## Extended Warranty Options\n\nCustomers can purchase extended warranty plans at the",
+      "trace_id": "83a91e6e-ce89-49a2-86f0-0cef53870524",
+      "elapsed_seconds": 5.93
+    },
+    "persona": "standard",
+    "category": "promotions"
+  },
+  {
+    "id": "sta002",
+    "query": "What is the return policy for items purchased during promotional events?",
+    "expected_answer": "Items purchased during promotional events have a return window of 15 calendar days from delivery, with a 10% restocking fee applicable. Some clearance items may be marked as 'Final Sale' and are not eligible for return.",
+    "generated_answer": {
+      "query": "What is the return policy for items purchased during promotional events?",
+      "answer": "The return policy for items purchased during promotional events is as follows:\n\n- **Return Window**: The return window is reduced to 15 calendar days from the date of delivery (standard is 30 days).\n- **Restocking Fee**: A 10% restocking fee applies to all returns of promotional items.\n- **Final Sale Items**: Some clearance items may be marked as \"Final Sale\" and are not eligible for return or exchange. These items are clearly labeled at the time of purchase.\n\n**Premium Member Exception**: Premium members (both Silver and Gold) are exempt from the reduced return window and restocking fee, meaning they can return promotional purchases under their standard extended return windows. However, even Premium members cannot return items marked as \"Final Sale.\"",
+      "retrieved_chunks": [
+        {
+          "id": 40,
+          "doc_name": "07_promotional_events.md",
+          "chunk_index": 3,
+          "content": "uring promotional events are subject to modified return terms:\n\n- **Return window**: Reduced to 15 calendar days from delivery (standard is 30 days).\n- **Restocking fee**: A 10% restocking fee applies to all returns of promotional items.\n- **Final sale items**: Some clearance items may be marked as \"Final Sale\" and are not eligible for return or exchange. These are clearly labeled at the time of purchase.\n\n**Premium Member Exception**: Premium members (both Silver and Gold) are exempt from the r",
+          "metadata": {
+            "doc_name": "07_promotional_events.md",
+            "chunk_index": 3
+          },
+          "similarity": 0.7615
+        },
+        {
+          "id": 41,
+          "doc_name": "07_promotional_events.md",
+          "chunk_index": 4,
+          "content": "educed return window and restocking fee. Their standard extended return windows apply to all promotional purchases. However, even Premium members cannot return items marked as \"Final Sale.\"\n\n## Inventory and Stock\n\nPromotional items are available while supplies last. Acmera reserves the right to limit quantities per customer. Orders exceeding quantity limits may be partially or fully cancelled with a full refund.\n\nBack-orders are not accepted during promotional events. If an item goes out of sto",
+          "metadata": {
+            "doc_name": "07_promotional_events.md",
+            "chunk_index": 4
+          },
+          "similarity": 0.6809
+        },
+        {
+          "id": 48,
+          "doc_name": "08_support_tickets.md",
+          "chunk_index": 5,
+          "content": "(\u20b92,499 paid, original price \u20b94,999). Wants to return after 22 days. Informed of 15-day promotional return window and 10% restocking fee. Customer disputes the policy, claims he wasn't aware at time of purchase.\n\n**Resolution**: Return denied per promotional events policy. The 15-day window and restocking fee were displayed on the product page and in the order confirmation email. Customer offered 15% discount coupon on next purchase as goodwill gesture. Customer accepted reluctantly.\n\n**Agent No",
+          "metadata": {
+            "doc_name": "08_support_tickets.md",
+            "chunk_index": 5
+          },
+          "similarity": 0.6137
+        },
+        {
+          "id": 39,
+          "doc_name": "07_promotional_events.md",
+          "chunk_index": 2,
+          "content": "otional pricing is clearly marked with the original price and discounted price displayed. Promotional discounts cannot be combined with coupon codes or other offers unless explicitly stated.\n\nPrice matching is not available during or after promotional events. If an item goes on sale within 7 days of your purchase, standard customers can request a one-time price adjustment. Premium members can request price adjustments within 14 days.\n\n## Return Policy for Promotional Purchases\n\nItems purchased d",
+          "metadata": {
+            "doc_name": "07_promotional_events.md",
+            "chunk_index": 2
+          },
+          "similarity": 0.6123
+        },
+        {
+          "id": 12,
+          "doc_name": "02_premium_membership.md",
+          "chunk_index": 7,
+          "content": "to be unopened for return eligibility. Premium members (both Silver and Gold) may return opened electronics within their extended return window, provided the item is in functional condition with all original accessories included.\n\nThis exception covers laptops, tablets, smartphones, headphones, and smart home devices. It does not cover consumable electronics accessories such as cables, screen protectors, or cases.\n\n### Promotional Period Purchases\n\nItems purchased during promotional events (flas",
+          "metadata": {
+            "doc_name": "02_premium_membership.md",
+            "chunk_index": 7
+          },
+          "similarity": 0.5997
+        }
+      ],
+      "context": "[Source: 07_promotional_events.md, Chunk 3]\nuring promotional events are subject to modified return terms:\n\n- **Return window**: Reduced to 15 calendar days from delivery (standard is 30 days).\n- **Restocking fee**: A 10% restocking fee applies to all returns of promotional items.\n- **Final sale items**: Some clearance items may be marked as \"Final Sale\" and are not eligible for return or exchange. These are clearly labeled at the time of purchase.\n\n**Premium Member Exception**: Premium members (both Silver and Gold) are exempt from the r\n\n---\n\n[Source: 07_promotional_events.md, Chunk 4]\neduced return window and restocking fee. Their standard extended return windows apply to all promotional purchases. However, even Premium members cannot return items marked as \"Final Sale.\"\n\n## Inventory and Stock\n\nPromotional items are available while supplies last. Acmera reserves the right to limit quantities per customer. Orders exceeding quantity limits may be partially or fully cancelled with a full refund.\n\nBack-orders are not accepted during promotional events. If an item goes out of sto\n\n---\n\n[Source: 08_support_tickets.md, Chunk 5]\n(\u20b92,499 paid, original price \u20b94,999). Wants to return after 22 days. Informed of 15-day promotional return window and 10% restocking fee. Customer disputes the policy, claims he wasn't aware at time of purchase.\n\n**Resolution**: Return denied per promotional events policy. The 15-day window and restocking fee were displayed on the product page and in the order confirmation email. Customer offered 15% discount coupon on next purchase as goodwill gesture. Customer accepted reluctantly.\n\n**Agent No\n\n---\n\n[Source: 07_promotional_events.md, Chunk 2]\notional pricing is clearly marked with the original price and discounted price displayed. Promotional discounts cannot be combined with coupon codes or other offers unless explicitly stated.\n\nPrice matching is not available during or after promotional events. If an item goes on sale within 7 days of your purchase, standard customers can request a one-time price adjustment. Premium members can request price adjustments within 14 days.\n\n## Return Policy for Promotional Purchases\n\nItems purchased d\n\n---\n\n[Source: 02_premium_membership.md, Chunk 7]\nto be unopened for return eligibility. Premium members (both Silver and Gold) may return opened electronics within their extended return window, provided the item is in functional condition with all original accessories included.\n\nThis exception covers laptops, tablets, smartphones, headphones, and smart home devices. It does not cover consumable electronics accessories such as cables, screen protectors, or cases.\n\n### Promotional Period Purchases\n\nItems purchased during promotional events (flas",
+      "trace_id": "1200a322-9f34-46b4-afa2-7f786de83e93",
+      "elapsed_seconds": 5.24
+    },
+    "persona": "standard",
+    "category": "promotions"
+  },
+  {
+    "id": "sta003",
+    "query": "Can I combine promotional discounts with coupon codes?",
+    "expected_answer": "Promotional discounts cannot be combined with coupon codes or other offers unless explicitly stated.",
+    "generated_answer": {
+      "query": "Can I combine promotional discounts with coupon codes?",
+      "answer": "No, promotional discounts cannot be combined with coupon codes or other offers unless explicitly stated.",
+      "retrieved_chunks": [
+        {
+          "id": 39,
+          "doc_name": "07_promotional_events.md",
+          "chunk_index": 2,
+          "content": "otional pricing is clearly marked with the original price and discounted price displayed. Promotional discounts cannot be combined with coupon codes or other offers unless explicitly stated.\n\nPrice matching is not available during or after promotional events. If an item goes on sale within 7 days of your purchase, standard customers can request a one-time price adjustment. Premium members can request price adjustments within 14 days.\n\n## Return Policy for Promotional Purchases\n\nItems purchased d",
+          "metadata": {
+            "doc_name": "07_promotional_events.md",
+            "chunk_index": 2
+          },
+          "similarity": 0.5553
+        },
+        {
+          "id": 62,
+          "doc_name": "11_internal_pricing.md",
+          "chunk_index": 1,
+          "content": "approval and must be documented with business justification.\n- Maximum goodwill discount on any single order: 25%.\n\n## Competitor Price Matching\n\nWe do not publicly advertise price matching, but support agents may match verified competitor prices on identical products if the customer explicitly requests it. The competitor must be an authorized retailer. Marketplace sellers (Amazon third-party, Flipkart third-party) do not qualify.\n\n## Premium Member Retention Discounts\n\nIf a Premium Gold member",
+          "metadata": {
+            "doc_name": "11_internal_pricing.md",
+            "chunk_index": 1
+          },
+          "similarity": 0.4502
+        },
+        {
+          "id": 38,
+          "doc_name": "07_promotional_events.md",
+          "chunk_index": 1,
+          "content": "counts (40-70% off). Flash sales are announced 24 hours in advance via app notifications and email.\n\n**Clearance Events**: Quarterly clearance of end-of-line and overstocked products. Discounts range from 30-80%. Clearance items have limited stock and are sold on a first-come-first-served basis.\n\n**Premium-Exclusive Sales**: Available only to Premium members. These events feature curated selections with exclusive pricing not available during general sales.\n\n## Pricing During Promotions\n\nAll prom",
+          "metadata": {
+            "doc_name": "07_promotional_events.md",
+            "chunk_index": 1
+          },
+          "similarity": 0.4361
+        },
+        {
+          "id": 40,
+          "doc_name": "07_promotional_events.md",
+          "chunk_index": 3,
+          "content": "uring promotional events are subject to modified return terms:\n\n- **Return window**: Reduced to 15 calendar days from delivery (standard is 30 days).\n- **Restocking fee**: A 10% restocking fee applies to all returns of promotional items.\n- **Final sale items**: Some clearance items may be marked as \"Final Sale\" and are not eligible for return or exchange. These are clearly labeled at the time of purchase.\n\n**Premium Member Exception**: Premium members (both Silver and Gold) are exempt from the r",
+          "metadata": {
+            "doc_name": "07_promotional_events.md",
+            "chunk_index": 3
+          },
+          "similarity": 0.4296
+        },
+        {
+          "id": 81,
+          "doc_name": "15_slack_support_chat.md",
+          "chunk_index": 3,
+          "content": "ium members?\n\n[2:48 PM] @team_lead_raj: No. Premium members are exempt from promotional return restrictions. Her 45-day Silver window applies regardless of whether it was a sale purchase. Process the return normally.\n\n[2:49 PM] @mike_support: Even the restocking fee?\n\n[2:50 PM] @team_lead_raj: Even the restocking fee. Premium exemption covers both the reduced window AND the restocking fee. It's in the Premium Membership Guide under \"Return and Refund Privileges\" \u2192 \"Promotional Period Purchases.\"",
+          "metadata": {
+            "doc_name": "15_slack_support_chat.md",
+            "chunk_index": 3
+          },
+          "similarity": 0.3974
+        }
+      ],
+      "context": "[Source: 07_promotional_events.md, Chunk 2]\notional pricing is clearly marked with the original price and discounted price displayed. Promotional discounts cannot be combined with coupon codes or other offers unless explicitly stated.\n\nPrice matching is not available during or after promotional events. If an item goes on sale within 7 days of your purchase, standard customers can request a one-time price adjustment. Premium members can request price adjustments within 14 days.\n\n## Return Policy for Promotional Purchases\n\nItems purchased d\n\n---\n\n[Source: 11_internal_pricing.md, Chunk 1]\napproval and must be documented with business justification.\n- Maximum goodwill discount on any single order: 25%.\n\n## Competitor Price Matching\n\nWe do not publicly advertise price matching, but support agents may match verified competitor prices on identical products if the customer explicitly requests it. The competitor must be an authorized retailer. Marketplace sellers (Amazon third-party, Flipkart third-party) do not qualify.\n\n## Premium Member Retention Discounts\n\nIf a Premium Gold member\n\n---\n\n[Source: 07_promotional_events.md, Chunk 1]\ncounts (40-70% off). Flash sales are announced 24 hours in advance via app notifications and email.\n\n**Clearance Events**: Quarterly clearance of end-of-line and overstocked products. Discounts range from 30-80%. Clearance items have limited stock and are sold on a first-come-first-served basis.\n\n**Premium-Exclusive Sales**: Available only to Premium members. These events feature curated selections with exclusive pricing not available during general sales.\n\n## Pricing During Promotions\n\nAll prom\n\n---\n\n[Source: 07_promotional_events.md, Chunk 3]\nuring promotional events are subject to modified return terms:\n\n- **Return window**: Reduced to 15 calendar days from delivery (standard is 30 days).\n- **Restocking fee**: A 10% restocking fee applies to all returns of promotional items.\n- **Final sale items**: Some clearance items may be marked as \"Final Sale\" and are not eligible for return or exchange. These are clearly labeled at the time of purchase.\n\n**Premium Member Exception**: Premium members (both Silver and Gold) are exempt from the r\n\n---\n\n[Source: 15_slack_support_chat.md, Chunk 3]\nium members?\n\n[2:48 PM] @team_lead_raj: No. Premium members are exempt from promotional return restrictions. Her 45-day Silver window applies regardless of whether it was a sale purchase. Process the return normally.\n\n[2:49 PM] @mike_support: Even the restocking fee?\n\n[2:50 PM] @team_lead_raj: Even the restocking fee. Premium exemption covers both the reduced window AND the restocking fee. It's in the Premium Membership Guide under \"Return and Refund Privileges\" \u2192 \"Promotional Period Purchases.\"",
+      "trace_id": "bfff7e94-1947-4841-853b-30be853a6cde",
+      "elapsed_seconds": 2.05
+    },
+    "persona": "standard",
+    "category": "promotions"
+  },
+  {
+    "id": "sta004",
+    "query": "What benefits do Premium Gold members receive compared to Premium Silver members?",
+    "expected_answer": "Premium Gold members receive free express shipping on all orders regardless of value, a quarterly exclusive discount code worth 15% off any single purchase, and have access to a direct phone line staffed 24/7 with senior support agents, along with other benefits.",
+    "generated_answer": {
+      "query": "What benefits do Premium Gold members receive compared to Premium Silver members?",
+      "answer": "Premium Gold members receive several benefits compared to Premium Silver members, including:\n\n1. **Spending Requirement**: Premium Gold status is granted after spending \u20b975,000 in a calendar year or maintaining Premium Silver status for 3+ consecutive years.\n\n2. **Shipping Benefits**: Premium Gold members receive free express shipping on all orders, while Premium Silver members receive free standard shipping on orders over \u20b9500.\n\n3. **Return Privileges**: Premium Gold members have a 60-day return window (compared to 45 days for Silver members), unlimited free return shipping, and instant store credit refunds.\n\n4. **Account Management**: Premium Gold members are assigned a dedicated account manager, while Premium Silver members do not have this benefit.\n\n5. **Support**: Premium Gold members have access to a direct phone line staffed 24/7 with senior support agents, whereas Premium Silver members are routed to a dedicated support queue with an average response time of under 2 hours.\n\n6. **Exclusive Products**: Some limited-edition products are exclusively available to Premium Gold members.\n\nThese benefits enhance the overall shopping experience for Premium Gold members compared to Premium Silver members.",
+      "retrieved_chunks": [
+        {
+          "id": 8,
+          "doc_name": "02_premium_membership.md",
+          "chunk_index": 3,
+          "content": "ld members additionally receive a quarterly exclusive discount code worth 15% off any single purchase.\n\nFlash sales and clearance events are accessible to Premium members 24 hours before general availability. Some limited-edition products are exclusively available to Premium Gold members.\n\n## Priority Support\n\nPremium Silver members are routed to a dedicated support queue with an average response time of under 2 hours. Premium Gold members have access to a direct phone line staffed 24/7 with sen",
+          "metadata": {
+            "doc_name": "02_premium_membership.md",
+            "chunk_index": 3
+          },
+          "similarity": 0.6976
+        },
+        {
+          "id": 6,
+          "doc_name": "02_premium_membership.md",
+          "chunk_index": 1,
+          "content": "2+ years.\n- **Premium Gold**: Granted after spending \u20b975,000 in a calendar year or maintaining Premium Silver status for 3+ consecutive years.\n\nMembership status is reviewed annually on the anniversary of enrollment. Members who fall below the spending threshold may be downgraded but will retain their current tier benefits for a 90-day grace period.\n\n## Shipping Benefits\n\nPremium Silver members receive free standard shipping on all orders over \u20b9500. Premium Gold members receive free express shi",
+          "metadata": {
+            "doc_name": "02_premium_membership.md",
+            "chunk_index": 1
+          },
+          "similarity": 0.6538
+        },
+        {
+          "id": 33,
+          "doc_name": "06_support_faq.md",
+          "chunk_index": 4,
+          "content": "w do I check my Premium membership status?**\nA: Go to \"Account Settings\" \u2192 \"Membership\" in the app or website. You'll see your current tier, annual spending, and the date of your next status review.\n\n**Q: Can I share my Premium benefits with family members?**\nA: Premium benefits are tied to individual accounts and cannot be shared. However, Premium Gold members can add one secondary account holder who receives Premium Silver benefits. Contact your account manager to set this up.\n\n**Q: What happe",
+          "metadata": {
+            "doc_name": "06_support_faq.md",
+            "chunk_index": 4
+          },
+          "similarity": 0.628
+        },
+        {
+          "id": 50,
+          "doc_name": "08_support_tickets.md",
+          "chunk_index": 7,
+          "content": "um Gold status. Also asks if Gold members get any special return privileges beyond Silver.\n\n**Resolution**: Customer needs \u20b923,000 more in purchases this calendar year to reach \u20b975,000 Gold threshold. Explained Gold benefits: 60-day return window (vs Silver's 45 days), unlimited free return shipping, instant store credit refunds, dedicated account manager, and free express shipping on all orders.\n\n**Agent Notes**: Customer seems likely to make additional purchases to reach Gold before year end.",
+          "metadata": {
+            "doc_name": "08_support_tickets.md",
+            "chunk_index": 7
+          },
+          "similarity": 0.6031
+        },
+        {
+          "id": 9,
+          "doc_name": "02_premium_membership.md",
+          "chunk_index": 4,
+          "content": "ior support agents.\n\nAll Premium members can escalate any support ticket directly to a team lead. Standard customers must go through the regular escalation process which typically takes 48-72 hours.\n\n## Account Management\n\nPremium members can store up to 10 shipping addresses and 5 payment methods. They also have access to detailed purchase analytics, including spending trends, category breakdowns, and personalized recommendations.\n\nPremium Gold members are assigned a dedicated account manager w",
+          "metadata": {
+            "doc_name": "02_premium_membership.md",
+            "chunk_index": 4
+          },
+          "similarity": 0.5701
+        }
+      ],
+      "context": "[Source: 02_premium_membership.md, Chunk 3]\nld members additionally receive a quarterly exclusive discount code worth 15% off any single purchase.\n\nFlash sales and clearance events are accessible to Premium members 24 hours before general availability. Some limited-edition products are exclusively available to Premium Gold members.\n\n## Priority Support\n\nPremium Silver members are routed to a dedicated support queue with an average response time of under 2 hours. Premium Gold members have access to a direct phone line staffed 24/7 with sen\n\n---\n\n[Source: 02_premium_membership.md, Chunk 1]\n2+ years.\n- **Premium Gold**: Granted after spending \u20b975,000 in a calendar year or maintaining Premium Silver status for 3+ consecutive years.\n\nMembership status is reviewed annually on the anniversary of enrollment. Members who fall below the spending threshold may be downgraded but will retain their current tier benefits for a 90-day grace period.\n\n## Shipping Benefits\n\nPremium Silver members receive free standard shipping on all orders over \u20b9500. Premium Gold members receive free express shi\n\n---\n\n[Source: 06_support_faq.md, Chunk 4]\nw do I check my Premium membership status?**\nA: Go to \"Account Settings\" \u2192 \"Membership\" in the app or website. You'll see your current tier, annual spending, and the date of your next status review.\n\n**Q: Can I share my Premium benefits with family members?**\nA: Premium benefits are tied to individual accounts and cannot be shared. However, Premium Gold members can add one secondary account holder who receives Premium Silver benefits. Contact your account manager to set this up.\n\n**Q: What happe\n\n---\n\n[Source: 08_support_tickets.md, Chunk 7]\num Gold status. Also asks if Gold members get any special return privileges beyond Silver.\n\n**Resolution**: Customer needs \u20b923,000 more in purchases this calendar year to reach \u20b975,000 Gold threshold. Explained Gold benefits: 60-day return window (vs Silver's 45 days), unlimited free return shipping, instant store credit refunds, dedicated account manager, and free express shipping on all orders.\n\n**Agent Notes**: Customer seems likely to make additional purchases to reach Gold before year end.\n\n---\n\n[Source: 02_premium_membership.md, Chunk 4]\nior support agents.\n\nAll Premium members can escalate any support ticket directly to a team lead. Standard customers must go through the regular escalation process which typically takes 48-72 hours.\n\n## Account Management\n\nPremium members can store up to 10 shipping addresses and 5 payment methods. They also have access to detailed purchase analytics, including spending trends, category breakdowns, and personalized recommendations.\n\nPremium Gold members are assigned a dedicated account manager w",
+      "trace_id": "7c7f2962-a131-46ab-9e14-9ef6f6d85e1a",
+      "elapsed_seconds": 5.63
+    },
+    "persona": "standard",
+    "category": "membership"
+  },
+  {
+    "id": "sta005",
+    "query": "How long do Premium Silver members have to return purchases?",
+    "expected_answer": "Premium Silver members receive a 45-day return window on all purchases, extended from the standard 30-day window.",
+    "generated_answer": {
+      "query": "How long do Premium Silver members have to return purchases?",
+      "answer": "Premium Silver members have a 45-day return window on all purchases. This is an extension from the standard 30-day return window.",
+      "retrieved_chunks": [
+        {
+          "id": 81,
+          "doc_name": "15_slack_support_chat.md",
+          "chunk_index": 3,
+          "content": "ium members?\n\n[2:48 PM] @team_lead_raj: No. Premium members are exempt from promotional return restrictions. Her 45-day Silver window applies regardless of whether it was a sale purchase. Process the return normally.\n\n[2:49 PM] @mike_support: Even the restocking fee?\n\n[2:50 PM] @team_lead_raj: Even the restocking fee. Premium exemption covers both the reduced window AND the restocking fee. It's in the Premium Membership Guide under \"Return and Refund Privileges\" \u2192 \"Promotional Period Purchases.\"",
+          "metadata": {
+            "doc_name": "15_slack_support_chat.md",
+            "chunk_index": 3
+          },
+          "similarity": 0.6606
+        },
+        {
+          "id": 13,
+          "doc_name": "02_premium_membership.md",
+          "chunk_index": 8,
+          "content": "h sales, clearance, seasonal sales) are normally subject to a restricted 15-day return window with restocking fees. Premium members are exempt from both the reduced window and the restocking fee \u2014 their standard extended window applies to all promotional purchases.\n\n### Refund Processing Priority\n\nRefunds for Premium members are processed within 2 business days of the item being received at our warehouse, compared to 5-7 business days for standard customers. Premium Gold members may also request",
+          "metadata": {
+            "doc_name": "02_premium_membership.md",
+            "chunk_index": 8
+          },
+          "similarity": 0.6605
+        },
+        {
+          "id": 6,
+          "doc_name": "02_premium_membership.md",
+          "chunk_index": 1,
+          "content": "2+ years.\n- **Premium Gold**: Granted after spending \u20b975,000 in a calendar year or maintaining Premium Silver status for 3+ consecutive years.\n\nMembership status is reviewed annually on the anniversary of enrollment. Members who fall below the spending threshold may be downgraded but will retain their current tier benefits for a 90-day grace period.\n\n## Shipping Benefits\n\nPremium Silver members receive free standard shipping on all orders over \u20b9500. Premium Gold members receive free express shi",
+          "metadata": {
+            "doc_name": "02_premium_membership.md",
+            "chunk_index": 1
+          },
+          "similarity": 0.6432
+        },
+        {
+          "id": 10,
+          "doc_name": "02_premium_membership.md",
+          "chunk_index": 5,
+          "content": "ho can assist with bulk orders, corporate gifting, and custom product requests.\n\n## Return and Refund Privileges\n\nThis section outlines the enhanced return policies available exclusively to Premium members. These privileges are in addition to the standard return policy and override standard terms where conflicts exist.\n\n### Extended Return Window\n\nPremium Silver members receive a 45-day return window on all purchases, extended from the standard 30-day window. Premium Gold members receive a 60-da",
+          "metadata": {
+            "doc_name": "02_premium_membership.md",
+            "chunk_index": 5
+          },
+          "similarity": 0.6291
+        },
+        {
+          "id": 40,
+          "doc_name": "07_promotional_events.md",
+          "chunk_index": 3,
+          "content": "uring promotional events are subject to modified return terms:\n\n- **Return window**: Reduced to 15 calendar days from delivery (standard is 30 days).\n- **Restocking fee**: A 10% restocking fee applies to all returns of promotional items.\n- **Final sale items**: Some clearance items may be marked as \"Final Sale\" and are not eligible for return or exchange. These are clearly labeled at the time of purchase.\n\n**Premium Member Exception**: Premium members (both Silver and Gold) are exempt from the r",
+          "metadata": {
+            "doc_name": "07_promotional_events.md",
+            "chunk_index": 3
+          },
+          "similarity": 0.6244
+        }
+      ],
+      "context": "[Source: 15_slack_support_chat.md, Chunk 3]\nium members?\n\n[2:48 PM] @team_lead_raj: No. Premium members are exempt from promotional return restrictions. Her 45-day Silver window applies regardless of whether it was a sale purchase. Process the return normally.\n\n[2:49 PM] @mike_support: Even the restocking fee?\n\n[2:50 PM] @team_lead_raj: Even the restocking fee. Premium exemption covers both the reduced window AND the restocking fee. It's in the Premium Membership Guide under \"Return and Refund Privileges\" \u2192 \"Promotional Period Purchases.\"\n\n---\n\n[Source: 02_premium_membership.md, Chunk 8]\nh sales, clearance, seasonal sales) are normally subject to a restricted 15-day return window with restocking fees. Premium members are exempt from both the reduced window and the restocking fee \u2014 their standard extended window applies to all promotional purchases.\n\n### Refund Processing Priority\n\nRefunds for Premium members are processed within 2 business days of the item being received at our warehouse, compared to 5-7 business days for standard customers. Premium Gold members may also request\n\n---\n\n[Source: 02_premium_membership.md, Chunk 1]\n2+ years.\n- **Premium Gold**: Granted after spending \u20b975,000 in a calendar year or maintaining Premium Silver status for 3+ consecutive years.\n\nMembership status is reviewed annually on the anniversary of enrollment. Members who fall below the spending threshold may be downgraded but will retain their current tier benefits for a 90-day grace period.\n\n## Shipping Benefits\n\nPremium Silver members receive free standard shipping on all orders over \u20b9500. Premium Gold members receive free express shi\n\n---\n\n[Source: 02_premium_membership.md, Chunk 5]\nho can assist with bulk orders, corporate gifting, and custom product requests.\n\n## Return and Refund Privileges\n\nThis section outlines the enhanced return policies available exclusively to Premium members. These privileges are in addition to the standard return policy and override standard terms where conflicts exist.\n\n### Extended Return Window\n\nPremium Silver members receive a 45-day return window on all purchases, extended from the standard 30-day window. Premium Gold members receive a 60-da\n\n---\n\n[Source: 07_promotional_events.md, Chunk 3]\nuring promotional events are subject to modified return terms:\n\n- **Return window**: Reduced to 15 calendar days from delivery (standard is 30 days).\n- **Restocking fee**: A 10% restocking fee applies to all returns of promotional items.\n- **Final sale items**: Some clearance items may be marked as \"Final Sale\" and are not eligible for return or exchange. These are clearly labeled at the time of purchase.\n\n**Premium Member Exception**: Premium members (both Silver and Gold) are exempt from the r",
+      "trace_id": "ee327966-211a-47a2-95ad-34fbb6a0f6ca",
+      "elapsed_seconds": 1.65
+    },
+    "persona": "standard",
+    "category": "membership"
+  },
+  {
+    "id": "sta006",
+    "query": "Is there a grace period if a Premium member falls below the spending threshold?",
+    "expected_answer": "Yes, members who fall below the spending threshold may be downgraded but will retain their current tier benefits for a 90-day grace period.",
+    "generated_answer": {
+      "query": "Is there a grace period if a Premium member falls below the spending threshold?",
+      "answer": "Yes, there is a 90-day grace period for Premium members who fall below the spending threshold at their annual review. During this time, they retain their current tier benefits, and any additional spending within this period counts toward reinstating their previous tier.",
+      "retrieved_chunks": [
+        {
+          "id": 34,
+          "doc_name": "06_support_faq.md",
+          "chunk_index": 5,
+          "content": "ns if my Premium status is downgraded?**\nA: If you fall below the spending threshold at your annual review, you'll be notified 30 days before the downgrade takes effect. You'll have a 90-day grace period where you retain your current tier benefits. During this time, any additional spending counts toward reinstating your previous tier.\n\n## Product Issues\n\n**Q: My product arrived damaged. What should I do?**\nA: Report the damage within 48 hours of delivery through the app or by contacting support.",
+          "metadata": {
+            "doc_name": "06_support_faq.md",
+            "chunk_index": 5
+          },
+          "similarity": 0.6302
+        },
+        {
+          "id": 6,
+          "doc_name": "02_premium_membership.md",
+          "chunk_index": 1,
+          "content": "2+ years.\n- **Premium Gold**: Granted after spending \u20b975,000 in a calendar year or maintaining Premium Silver status for 3+ consecutive years.\n\nMembership status is reviewed annually on the anniversary of enrollment. Members who fall below the spending threshold may be downgraded but will retain their current tier benefits for a 90-day grace period.\n\n## Shipping Benefits\n\nPremium Silver members receive free standard shipping on all orders over \u20b9500. Premium Gold members receive free express shi",
+          "metadata": {
+            "doc_name": "02_premium_membership.md",
+            "chunk_index": 1
+          },
+          "similarity": 0.5916
+        },
+        {
+          "id": 33,
+          "doc_name": "06_support_faq.md",
+          "chunk_index": 4,
+          "content": "w do I check my Premium membership status?**\nA: Go to \"Account Settings\" \u2192 \"Membership\" in the app or website. You'll see your current tier, annual spending, and the date of your next status review.\n\n**Q: Can I share my Premium benefits with family members?**\nA: Premium benefits are tied to individual accounts and cannot be shared. However, Premium Gold members can add one secondary account holder who receives Premium Silver benefits. Contact your account manager to set this up.\n\n**Q: What happe",
+          "metadata": {
+            "doc_name": "06_support_faq.md",
+            "chunk_index": 4
+          },
+          "similarity": 0.549
+        },
+        {
+          "id": 13,
+          "doc_name": "02_premium_membership.md",
+          "chunk_index": 8,
+          "content": "h sales, clearance, seasonal sales) are normally subject to a restricted 15-day return window with restocking fees. Premium members are exempt from both the reduced window and the restocking fee \u2014 their standard extended window applies to all promotional purchases.\n\n### Refund Processing Priority\n\nRefunds for Premium members are processed within 2 business days of the item being received at our warehouse, compared to 5-7 business days for standard customers. Premium Gold members may also request",
+          "metadata": {
+            "doc_name": "02_premium_membership.md",
+            "chunk_index": 8
+          },
+          "similarity": 0.5204
+        },
+        {
+          "id": 8,
+          "doc_name": "02_premium_membership.md",
+          "chunk_index": 3,
+          "content": "ld members additionally receive a quarterly exclusive discount code worth 15% off any single purchase.\n\nFlash sales and clearance events are accessible to Premium members 24 hours before general availability. Some limited-edition products are exclusively available to Premium Gold members.\n\n## Priority Support\n\nPremium Silver members are routed to a dedicated support queue with an average response time of under 2 hours. Premium Gold members have access to a direct phone line staffed 24/7 with sen",
+          "metadata": {
+            "doc_name": "02_premium_membership.md",
+            "chunk_index": 3
+          },
+          "similarity": 0.5057
+        }
+      ],
+      "context": "[Source: 06_support_faq.md, Chunk 5]\nns if my Premium status is downgraded?**\nA: If you fall below the spending threshold at your annual review, you'll be notified 30 days before the downgrade takes effect. You'll have a 90-day grace period where you retain your current tier benefits. During this time, any additional spending counts toward reinstating your previous tier.\n\n## Product Issues\n\n**Q: My product arrived damaged. What should I do?**\nA: Report the damage within 48 hours of delivery through the app or by contacting support.\n\n---\n\n[Source: 02_premium_membership.md, Chunk 1]\n2+ years.\n- **Premium Gold**: Granted after spending \u20b975,000 in a calendar year or maintaining Premium Silver status for 3+ consecutive years.\n\nMembership status is reviewed annually on the anniversary of enrollment. Members who fall below the spending threshold may be downgraded but will retain their current tier benefits for a 90-day grace period.\n\n## Shipping Benefits\n\nPremium Silver members receive free standard shipping on all orders over \u20b9500. Premium Gold members receive free express shi\n\n---\n\n[Source: 06_support_faq.md, Chunk 4]\nw do I check my Premium membership status?**\nA: Go to \"Account Settings\" \u2192 \"Membership\" in the app or website. You'll see your current tier, annual spending, and the date of your next status review.\n\n**Q: Can I share my Premium benefits with family members?**\nA: Premium benefits are tied to individual accounts and cannot be shared. However, Premium Gold members can add one secondary account holder who receives Premium Silver benefits. Contact your account manager to set this up.\n\n**Q: What happe\n\n---\n\n[Source: 02_premium_membership.md, Chunk 8]\nh sales, clearance, seasonal sales) are normally subject to a restricted 15-day return window with restocking fees. Premium members are exempt from both the reduced window and the restocking fee \u2014 their standard extended window applies to all promotional purchases.\n\n### Refund Processing Priority\n\nRefunds for Premium members are processed within 2 business days of the item being received at our warehouse, compared to 5-7 business days for standard customers. Premium Gold members may also request\n\n---\n\n[Source: 02_premium_membership.md, Chunk 3]\nld members additionally receive a quarterly exclusive discount code worth 15% off any single purchase.\n\nFlash sales and clearance events are accessible to Premium members 24 hours before general availability. Some limited-edition products are exclusively available to Premium Gold members.\n\n## Priority Support\n\nPremium Silver members are routed to a dedicated support queue with an average response time of under 2 hours. Premium Gold members have access to a direct phone line staffed 24/7 with sen",
+      "trace_id": "b1c97b65-3313-4f81-9695-6f0810c8d328",
+      "elapsed_seconds": 1.93
+    },
+    "persona": "standard",
+    "category": "membership"
+  }
+]

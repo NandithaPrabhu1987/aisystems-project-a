@@ -1,0 +1,82 @@
+[
+  {
+    "query": "I just received my order but realized I want to exchange it for a different item. How can I do that?",
+    "expected_answer": "To request an exchange, you can initiate the process by contacting our support team or using the self-service return portal. Please note that exchanges are subject to product availability.",
+    "difficulty": "medium",
+    "category": "returns",
+    "expected_source": "01_return_policy.md",
+    "id": "test_syn001"
+  },
+  {
+    "query": "What should I do if I want to return a perishable item I purchased last month?",
+    "expected_answer": "Perishable goods are excluded from our return policy and cannot be returned under any circumstances. Therefore, you won't be able to return the item.",
+    "difficulty": "medium",
+    "category": "returns",
+    "expected_source": "01_return_policy.md",
+    "id": "test_syn002"
+  },
+  {
+    "query": "I'm considering ordering some items, but I'm unsure about the shipping costs. Can you explain the charges for Standard and Express shipping?",
+    "expected_answer": "For Standard Shipping, there's a flat fee of \u20b999 for orders under \u20b9999, while orders over \u20b9999 qualify for free shipping. Express Shipping costs \u20b9199 on all orders and is free for Premium Gold members.",
+    "difficulty": "medium",
+    "category": "shipping",
+    "expected_source": "03_shipping_policy.md",
+    "id": "test_syn003"
+  },
+  {
+    "query": "If I place an order after 6:00 PM, when can I expect it to be processed, and how does this differ if I'm a Premium member?",
+    "expected_answer": "Orders placed after 6:00 PM are processed the next business day. However, Premium members enjoy priority processing, meaning their orders enter the fulfillment queue immediately upon payment confirmation, regardless of the time of order.",
+    "difficulty": "medium",
+    "category": "shipping",
+    "expected_source": "03_shipping_policy.md",
+    "id": "test_syn004"
+  },
+  {
+    "query": "I just added money to my Acmera Wallet, but how long will it take for the funds to be available for use?",
+    "expected_answer": "Wallet top-ups are processed instantly, so the funds will be available for use immediately after you add money to your Acmera Wallet.",
+    "difficulty": "medium",
+    "category": "wallet",
+    "expected_source": "13_acmera_wallet.md",
+    "id": "test_syn005"
+  },
+  {
+    "query": "What happens to my Acmera Wallet balance if I don't use my account for a long time?",
+    "expected_answer": "If your account is inactive for 12 consecutive months, you will receive a notification. After 18 months of inactivity, any remaining wallet balance will be forfeited.",
+    "difficulty": "medium",
+    "category": "wallet",
+    "expected_source": "13_acmera_wallet.md",
+    "id": "test_syn006"
+  },
+  {
+    "query": "Can I earn more rewards if I refer someone as a Premium member?",
+    "expected_answer": "Yes, as a Premium member, you earn enhanced referral rewards. Premium Silver members receive \u20b9750 per referral, and Premium Gold members receive \u20b91,000 per referral, compared to \u20b9500 for regular customers.",
+    "difficulty": "medium",
+    "category": "referrals",
+    "expected_source": "16_referral_program.md",
+    "id": "test_syn007"
+  },
+  {
+    "query": "What happens if the person I referred cancels their first order?",
+    "expected_answer": "If the referred customer's first order is cancelled or returned, the referral reward is revoked, meaning you will not receive the referral credit.",
+    "difficulty": "medium",
+    "category": "referrals",
+    "expected_source": "16_referral_program.md",
+    "id": "test_syn008"
+  },
+  {
+    "query": "Can I control my smart home devices using the Acmera AI Assistant through the mobile app?",
+    "expected_answer": "Yes, you can control compatible smart home devices like lights, thermostats, cameras, and locks using the Acmera AI Assistant available through the Acmera mobile app.",
+    "difficulty": "medium",
+    "category": "smart_home",
+    "expected_source": "17_smart_home_ecosystem.md",
+    "id": "test_syn009"
+  },
+  {
+    "query": "What kind of cloud storage options do I have for my Acmera SmartHome Camera 360, and how can I access live view?",
+    "expected_answer": "The Acmera SmartHome Camera 360 offers a free tier for live view only, as well as paid plans for recording history. You can access live view through the Acmera app or the web interface without any subscription.",
+    "difficulty": "medium",
+    "category": "smart_home",
+    "expected_source": "17_smart_home_ecosystem.md",
+    "id": "test_syn010"
+  }
+]
